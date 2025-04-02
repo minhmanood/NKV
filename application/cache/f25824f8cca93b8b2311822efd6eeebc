@@ -1,0 +1,195 @@
+a:2:{s:6:"expire";d:1521706663;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8" /> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <meta name="description" content="Công TY TNHH SX TM DV THIÊN LONG HẢI" /> <meta name="keywords" content="Công TY TNHH SX TM DV THIÊN LONG HẢI, erics" /> <meta property="og:site_name" content="Công TY TNHH SX TM DV THIÊN LONG HẢI" /> <meta property="og:type" content="Website" /> <meta property="og:title" content="ÁO THUN NAM - Công TY TNHH SX TM DV THIÊN LONG HẢI" /> <meta property="og:url" content="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/ao-thun-nam.html" /> <meta property="og:description" content="Công TY TNHH SX TM DV THIÊN LONG HẢI" /> <meta property="og:image" content="http://webdoanhnghiep.info/demo/source/xuatdu/uploads/logo/logo.png" /> <meta property="fb:app_id" content="124350198151002" /> <title>ÁO THUN NAM - Công TY TNHH SX TM DV THIÊN LONG HẢI</title> <link rel="icon" href="http://webdoanhnghiep.info/demo/source/xuatdu/uploads/logo/favicon-8.ico" type="image/x-icon"> <!----> <link href="http://webdoanhnghiep.info/demo/source/xuatdu/assets/css/bootstrap.min.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xuatdu/assets/css/webslidemenu.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xuatdu/assets/css/owl.carousel.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xuatdu/assets/css/owl.theme.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xuatdu/assets/css/owl.transitions.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xuatdu/assets/css/jquery.lightbox.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xuatdu/assets/css/style.css" rel="stylesheet"> <!-- Custom Fonts --> <link href="http://webdoanhnghiep.info/demo/source/xuatdu/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"> <link href="http://webdoanhnghiep.info/demo/source/xuatdu/assets/css/material-icons.css" rel="stylesheet" type="text/css"> <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet"> <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --> <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]--> </head> <body> <script>
+			window.fbAsyncInit = function() {
+				FB.init({
+				  appId      : '124350198151002',
+				  xfbml      : true,
+				  version    : 'v2.11'
+				});
+			};
+		</script> <div id="fb-root"></div> <script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.11";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script> <!------------------------------------------------------------------> <header> <div class="header-top"> <div class="container"> <div class="row"> <div class="col-lg-6 col-md-4 col-sm-6"> <p>Chuyên bán buôn (sỉ) lẻ quần áo trẻ em hàng hiệu</p> </div> <div class="col-lg-6 col-md-8 col-sm-6"> <div class="hotline"> <p> <span><i class="fa fa-phone" aria-hidden="true"></i> Hỗ trợ HCM: 0931.325.583 (Ms Ngọc)</span> <span><i class="fa fa-phone" aria-hidden="true"></i> Hỗ trợ HN: 0949.646.292 (Ms Huyền)</span> </p> </div> </div> </div> </div> </div> <div class="header-middle"> <div class="container"> <div class="row"> <div class="col-lg-3 col-md-3 col-sm-3"> <a href="http://webdoanhnghiep.info/demo/source/xuatdu/"><img src="http://webdoanhnghiep.info/demo/source/xuatdu/uploads/logo/logo.png" alt="" class="img-responsive"></a> </div> <div class="col-lg-9 col-md-9 col-sm-9"> <div class="nav-cart mini-cart"> <a href="http://webdoanhnghiep.info/demo/source/xuatdu/gio-hang.html"> <i class="icons-cart fa fa-shopping-cart" aria-hidden="true"></i> <div class="cart-info"> <label>Giỏ hàng</label> <span>(1) Sản phẩm</span> </div> </a> <div class="nav-cart-dropdown"> <ul class="list-unstyled container-mini-cart"> <li> <div class="block-image-cart"> <a href="http://webdoanhnghiep.info/demo/source/xuatdu/ao-nguc/ao-nguc-nu-erics-109-147.html"><img src="http://webdoanhnghiep.info/demo/source/xuatdu/uploads/shops/h11.jpg" alt="" class="img-responsive"></a> </div> <div class="block-detail"> <a class="remove-item" href="http://webdoanhnghiep.info/demo/source/xuatdu/xoa-san-pham-gio-hang.html?rowid=8d5e957f297893487bd98fa830fa6413" title="Xóa"><i class="fa fa-trash" aria-hidden="true"></i></a> <h3><a href="http://webdoanhnghiep.info/demo/source/xuatdu/ao-nguc/ao-nguc-nu-erics-109-147.html">ÁO NGỰC NỮ ERICS 109</a></h3> <span class="price">125.000 ₫</span> <span class="quality">/ SỐ LƯỢNG : 2</span> <input data-rowid="8d5e957f297893487bd98fa830fa6413" class="after-btn-cart form-control mini-cart-qty" type="number" value="2" min="1" max="10" /> </div> <div class="clearfix"></div> </li> <div class="clearfix"></div> <div class="total-price"> Tổng cộng <span class="price pull-right" id="mini-cart-total">250.000 ₫</span> </div> <div class="clearfix"></div> <div class="redirect-checkout"> <a href="http://webdoanhnghiep.info/demo/source/xuatdu/gio-hang.html" class="btn btn-cart">GIỎ HÀNG</a> <a href="http://webdoanhnghiep.info/demo/source/xuatdu/thanh-toan.html" class="btn btn-checkout">THANH TOÁN</a> </div> </ul> </div> </div> <div class="nav-search"> <form action="http://webdoanhnghiep.info/demo/source/xuatdu/search.html" method="get" autocomplete="off"> <div class="input-group"> <div class="input-group-btn search-panel"> <button type="button" class="btn btn-default btn-select dropdown-toggle" data-toggle="dropdown"> <span id="search_concept">All</span> <span class="caret"></span> </button> <ul class="dropdown-menu" role="menu" id="search-dropdown-menu"> <li><a href="#55">HÀng mới về</a></li><li><a href="#56">Đồ chơi sơ sinh</a></li><li><a href="#46">ÁO THUN NAM</a></li><li><a href="#43">ĐỒ LÓT NỮ</a></li><li><a href="#37">ĐỒ LÓT NAM</a></li> <li class="divider"></li> <li><a href="#all">All</a></li> </ul> </div> <input type="hidden" name="search_param" value="all" id="search_param"> <input type="text" class="form-control" name="q" value="" placeholder="Tìm kiếm ..."> <span class="input-group-btn"> <button class="btn btn-default btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button> </span> </div> </form> </div> </div> </div> </div> </div> <div class="header-bottom"> <div class="container"> <div class="wsmenucontainer clearfix"> <div class="overlapblackbg"></div> <div class="wsmobileheader clearfix"> <a id="wsnavtoggle" class="animated-arrow"><span></span></a> </div> <div class="header"> <!--Main Menu HTML Code--> <nav id="cssmenu1" class="wsmenu clearfix"> <ul class="mobile-sub wsmenu-list"> <li class="first-menu"><a id="first-menu" href="#">DANH MỤC SẢN PHẨM</a> <ul class="wsmenu-submenu active"> <li class="cap_2 site-nav__item site-nav__expanded-item site-nav--has-dropdown"><a class="cap_2_a" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/hang-moi-ve.html">HÀng mới về</a></li><li class="cap_2 site-nav__item site-nav__expanded-item site-nav--has-dropdown"><a class="cap_2_a" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/do-choi-so-sinh.html">Đồ chơi sơ sinh</a></li><li class="cap_2 site-nav__item site-nav__expanded-item site-nav--has-dropdown"><a class="cap_2_a" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/ao-thun-nam.html">ÁO THUN NAM</a></li><li class="cap_2 site-nav__item site-nav__expanded-item site-nav--has-dropdown"><a class="cap_2_a" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/do-lot-nu.html">ĐỒ LÓT NỮ</a><ul class="site-nav__dropdown text-left nen_hong"><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/ao-nguc.html">ÁO NGỰC</a></li><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/quan-lot.html">QUẦN LÓT</a></li><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/kem-tri-mun.html">Kem trị mụn</a></li><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/kem-tri-mun-1.html">Kem trị mụn 1</a></li><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/kem-tri-mun-2.html">Kem trị mụn 2</a></li><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/kem-tri-mun-3.html">Kem trị mụn 3</a></li><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/kem-tri-mun-4.html">Kem trị mụn 4</a></li><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/kem-tri-mun-5.html">Kem trị mụn 5</a></li><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/kem-tri-mun-6.html">Kem trị mụn 6</a></li><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/kem-tri-mun-7.html">Kem trị mụn 7</a></li><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/kem-tri-mun-8.html">Kem trị mụn 8</a></li><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/kem-tri-mun-9.html">Kem trị mụn 9</a></li><li class="no_wrap"><a class="chu_in_dau" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/kem-tri-mun-10.html">Kem trị mụn 10</a></li></ul></li><li class="cap_2 site-nav__item site-nav__expanded-item site-nav--has-dropdown"><a class="cap_2_a" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/do-lot-nam.html">ĐỒ LÓT NAM</a></li> <!-- <li><a href="product-fw.html">HÀNG MỚI VỀ</a></li> <li><a href="product-fw.html">ĐỒ SƠ SINH</a></li> <li><a href="product-fw.html">BỘ ĐỒ (SET) TRẺ EM</a></li> <li><a class="ipad-lans" href="product-fw.html">ÁO TRẺ EM <i class="fa fa-angle-right" aria-hidden="true"></i></a> <div class="wsmenu-submenu-sub" id="scroll-bar"> <ul class="col-lg-3 col-sm-3 link-list"> <li><a href="#"><i class="fa fa-square"></i>Kem trị nám</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem chống lão hóa</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị mụn</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị sẹo</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị nám</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem chống lão hóa</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị mụn</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị sẹo</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị nám</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem chống lão hóa</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị mụn</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị sẹo</a></li> </ul> <ul class="col-lg-3 col-sm-3 link-list"> <li><a href="#"><i class="fa fa-square"></i>Kem trị nám</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem chống lão hóa</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị mụn</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị sẹo</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị nám</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem chống lão hóa</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị mụn</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị sẹo</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị nám</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem chống lão hóa</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị mụn</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị sẹo</a></li> </ul> <ul class="col-lg-3 col-sm-3 link-list"> <li><a href="#"><i class="fa fa-square"></i>Kem trị nám</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem chống lão hóa</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị mụn</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị sẹo</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị nám</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem chống lão hóa</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị mụn</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị sẹo</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị nám</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem chống lão hóa</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị mụn</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị sẹo</a></li> </ul> <ul class="col-lg-3 col-sm-3 link-list"> <li><a href="#"><i class="fa fa-square"></i>Kem trị nám</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem chống lão hóa</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị mụn</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị sẹo</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị nám</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem chống lão hóa</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị mụn</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị sẹo</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị nám</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem chống lão hóa</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị mụn</a></li> <li><a href="#"><i class="fa fa-square"></i>Kem trị sẹo</a></li> </ul> </div> </li> <li><a href="product-fw.html">VÁY TRẺ EM</a></li> <li><a href="product-fw.html">PHỤ KIỆN TRẺ EM</a></li> <li><a href="product-fw.html">ĐỒ BƠI TRẺ EM</a></li> --> </ul> </li> <li><a href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/do-lot-nam.html">ĐỒ LÓT NAM</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/do-lot-nu.html">ĐỒ LÓT NỮ</a></li><li><a class="active" href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/ao-thun-nam.html">ÁO THUN NAM</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xuatdu/">SALE</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xuatdu/tin-tuc.html">TIN TỨC</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xuatdu/lien-he.html">LIÊN HỆ</a></li> </ul> </nav> <!--Menu HTML Code--> </div> </div> </div> </div> </header> <article> <section> <div class="container"> <div class="row"> <div class="col-lg-9 col-md-9 col-sm-9 col-lg-push-3 col-md-push-3 col-sm-push-3"> <section> <div class="box-breadcrumb"> <div class="row"> <ol class="breadcrumb"> <li><a href='http://webdoanhnghiep.info/demo/source/xuatdu/'>Trang chủ</a></li><li><a href='http://webdoanhnghiep.info/demo/source/xuatdu/san-pham.html'>Sản phẩm</a></li><li>áo thun nam</li> </ol> </div> </div> </section> <div class="box-warpper"> <div class="row row-7px"> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-7px"> <div class="box-product-item"> <div class="new-label"> NEW </div> <div class="block-images"> <a href="http://webdoanhnghiep.info/demo/source/xuatdu/san-pham/ao-thun-nam/ao-thun-nam-erics-157.html"><img src="http://webdoanhnghiep.info/demo/source/xuatdu/timthumb.php?src=http://webdoanhnghiep.info/demo/source/xuatdu/uploads/shops/a11.jpg&w=195&h=166&zc=2&q=100" alt="" class="img-responsive"></a> </div> <div class="block-content"> <h3><a href="http://webdoanhnghiep.info/demo/source/xuatdu/san-pham/ao-thun-nam/ao-thun-nam-erics-157.html">ÁO THUN NAM ERICS</a></h3> <p>196.000 VNĐ</p> </div> </div> </div> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-7px"> <div class="box-product-item"> <div class="new-label"> NEW </div> <div class="block-images"> <a href="http://webdoanhnghiep.info/demo/source/xuatdu/san-pham/ao-thun-nam/ao-thun-nam-erics-158.html"><img src="http://webdoanhnghiep.info/demo/source/xuatdu/timthumb.php?src=http://webdoanhnghiep.info/demo/source/xuatdu/uploads/shops/a2.jpg&w=195&h=166&zc=2&q=100" alt="" class="img-responsive"></a> </div> <div class="block-content"> <h3><a href="http://webdoanhnghiep.info/demo/source/xuatdu/san-pham/ao-thun-nam/ao-thun-nam-erics-158.html">ÁO THUN NAM ERICS</a></h3> <p>196.000 VNĐ</p> </div> </div> </div> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-7px"> <div class="box-product-item"> <div class="new-label"> NEW </div> <div class="block-images"> <a href="http://webdoanhnghiep.info/demo/source/xuatdu/san-pham/ao-thun-nam/ao-thun-nam-erics-159.html"><img src="http://webdoanhnghiep.info/demo/source/xuatdu/timthumb.php?src=http://webdoanhnghiep.info/demo/source/xuatdu/uploads/shops/a31.jpg&w=195&h=166&zc=2&q=100" alt="" class="img-responsive"></a> </div> <div class="block-content"> <h3><a href="http://webdoanhnghiep.info/demo/source/xuatdu/san-pham/ao-thun-nam/ao-thun-nam-erics-159.html">ÁO THUN NAM ERICS</a></h3> <p>196.000 VNĐ</p> </div> </div> </div> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-7px"> <div class="box-product-item"> <div class="new-label"> NEW </div> <div class="block-images"> <a href="http://webdoanhnghiep.info/demo/source/xuatdu/san-pham/ao-thun-nam/ao-thun-nam-erics-160.html"><img src="http://webdoanhnghiep.info/demo/source/xuatdu/timthumb.php?src=http://webdoanhnghiep.info/demo/source/xuatdu/uploads/shops/a41.jpg&w=195&h=166&zc=2&q=100" alt="" class="img-responsive"></a> </div> <div class="block-content"> <h3><a href="http://webdoanhnghiep.info/demo/source/xuatdu/san-pham/ao-thun-nam/ao-thun-nam-erics-160.html">ÁO THUN NAM ERICS</a></h3> <p>196.000 VNĐ</p> </div> </div> </div> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-7px"> <div class="box-product-item"> <div class="new-label"> NEW </div> <div class="block-images"> <a href="http://webdoanhnghiep.info/demo/source/xuatdu/san-pham/ao-thun-nam/ao-thun-nam-erics-161.html"><img src="http://webdoanhnghiep.info/demo/source/xuatdu/timthumb.php?src=http://webdoanhnghiep.info/demo/source/xuatdu/uploads/shops/a51.jpg&w=195&h=166&zc=2&q=100" alt="" class="img-responsive"></a> </div> <div class="block-content"> <h3><a href="http://webdoanhnghiep.info/demo/source/xuatdu/san-pham/ao-thun-nam/ao-thun-nam-erics-161.html">ÁO THUN NAM ERICS</a></h3> <p>196.000 VNĐ</p> </div> </div> </div> <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-7px"> <div class="box-product-item"> <div class="new-label"> NEW </div> <div class="block-images"> <a href="http://webdoanhnghiep.info/demo/source/xuatdu/san-pham/ao-thun-nam/ao-thun-nam-erics-162.html"><img src="http://webdoanhnghiep.info/demo/source/xuatdu/timthumb.php?src=http://webdoanhnghiep.info/demo/source/xuatdu/uploads/shops/a61.jpg&w=195&h=166&zc=2&q=100" alt="" class="img-responsive"></a> </div> <div class="block-content"> <h3><a href="http://webdoanhnghiep.info/demo/source/xuatdu/san-pham/ao-thun-nam/ao-thun-nam-erics-162.html">ÁO THUN NAM ERICS</a></h3> <p>196.000 VNĐ</p> </div> </div> </div> </div> <div class="clearfix"></div> </div> </div> <div class="col-lg-3 col-md-3 col-sm-12 col-lg-pull-9 col-md-pull-9"> <aside class="hidden-sm"> <div class="box-advertise"> <a target="_blank" href="http://webdoanhnghiep.info/demo/source/xuatdu/gioi-thieu-56.html"><img src="http://webdoanhnghiep.info/demo/source/xuatdu/uploads/images/advertiseee_03.png" alt="" class="img-responsive"></a> </div> <div class="clearfix"></div> <div class="box-fanpage"> <h3 class="title">FANPAGE</h3> <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkhoanhkhaccuocsong1101%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="215px;" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> </div> </aside> </div> </div> </div> </section> </article> <footer> <div class="box-footer"> <div class="container"> <div class="row"> <div class="col-lg-3 col-md-3 col-sm-3"> <h4 class="title">LIÊN HỆ</h4> <div class="block-content"> <p>Liên hệ: 0944.231.185 (Mrs Thúy)</p> <p>Xuất Dư - June Baby chuyên kinh doanh buôn(sỉ) &amp; lẻ mặt hàng Quần áo trẻ em Chúng tôi cam kết:</p> <p>- Hàng xuất dư xịn, cam kết chất lượng sản phẩm hàng đầu.</p> <p>- Giá luôn tốt nhất và mẫu mã luôn cập nhật</p> <p>- Khách hàng lấy hàng buôn, sỉ vui lòng liên hệ qua email: lienhe@xuatdu.com để nhận báo giá</p> </div> </div> <div class="col-lg-3 col-md-3 col-sm-3"> <h4 class="title">ĐỊA CHỈ</h4> <div class="block-content"> <p>Hà Nội:</p> <p>- Số 25, Lô 12A, Trung Yên 10, KĐT Trung Yên, P.Yên Hòa, Q. Cầu Giấy, Hà Nội.(Chỉ đường tới đây)<br /> - Hỗ trợ HN, 0949.646.292 (Ms Huyền)</p> <p>TP. Hồ Chí Minh:</p> <p>- D105 chung cư Phan Xích Long, đường Hóa Cúc, P7, Q Phú Nhuận (Địa chỉ giao nhận hàng sỉ)<br /> - Hỗ trợ HCM: 0931.325.583 (Ms Ngọc)</p> </div> </div> <div class="col-lg-3 col-md-3 col-sm-3"> <h4 class="title">DANH MỤC SẢN PHẨM</h4> <div class="block-content"> <ul> <li><a href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/hang-moi-ve.html">HÀNG MỚI VỀ</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/do-choi-so-sinh.html">ĐỒ CHƠI SƠ SINH</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/ao-thun-nam.html">ÁO THUN NAM</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/do-lot-nu.html">ĐỒ LÓT NỮ</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xuatdu/danh-muc-san-pham/do-lot-nam.html">ĐỒ LÓT NAM</a></li> </ul> </div> </div> <div class="col-lg-3 col-md-3 col-sm-3"> <h4 class="title">ĐƯỢC CHỨNG NHẬN</h4> <div class="block-content"> <img alt="" src="/demo/source/xuatdu/ckeditor/kcfinder/upload/images/FOOTERE_03.png" /> </div> <h4 class="title">ĐỐI TÁC GIAO HÀNG</h4> <div class="block-content type2"> <img alt="" src="/demo/source/xuatdu/ckeditor/kcfinder/upload/images/FOOTERE_09.png" style="width: 120px;" /><img alt="" src="/demo/source/xuatdu/ckeditor/kcfinder/upload/images/FOOTERE_11.png" style="width: 120px;" /><img alt="" src="/demo/source/xuatdu/ckeditor/kcfinder/upload/images/FOOTERE_16.png" style="width: 120px;" /><img alt="" src="/demo/source/xuatdu/ckeditor/kcfinder/upload/images/FOOTERE_18.png" style="width: 120px;" /> </div> </div> </div> </div> </div> <div class="box-copyright"> <div class="container"> <ul> <li><a href="http://webdoanhnghiep.info/demo/source/xuatdu/">CUNG CẤP ĐỒ CHƠI</a></li> </ul> <p>Copyright © JNB Việt Nam</p> <p>Công ty TNHH JNB Việt Nam. Số GCNDT: 0106527477, cấp ngày 05/05/2014, nơi cấp: Sở kế hoạch &amp; Đầu tư Hà Nội</p> </div> </div> </footer> <!------------------------------------------------------------------> <script type="text/javascript">
+            base_url = 'http://webdoanhnghiep.info/demo/source/xuatdu/';
+        </script> <!--Jquery--> <script src="http://webdoanhnghiep.info/demo/source/xuatdu/assets/js/jquery.js"></script> <script src="http://webdoanhnghiep.info/demo/source/xuatdu/assets/js/bootstrap.min.js"></script> <script src="http://webdoanhnghiep.info/demo/source/xuatdu/assets/js/webslidemenu.js"></script> <script src="http://webdoanhnghiep.info/demo/source/xuatdu/assets/js/owl.carousel.min.js"></script> <script src="http://webdoanhnghiep.info/demo/source/xuatdu/assets/js/bootstrap-number-input.js"></script> <script src="http://webdoanhnghiep.info/demo/source/xuatdu/assets/js/jquery.lightbox.min.js"></script> <script src="http://webdoanhnghiep.info/demo/source/xuatdu/assets/modules/shops/js/cart.js" type="text/javascript"></script> <script src="http://webdoanhnghiep.info/demo/source/xuatdu/assets/modules/newsletter/js/newsletter.js" type="text/javascript"></script> <script>
+      		$(document).ready(function(e){
+      			$('.search-panel .dropdown-menu').find('a').click(function(e) {
+      				e.preventDefault();
+      				var param = $(this).attr("href").replace("#","");
+      				var concept = $(this).text();
+      				$('.search-panel span#search_concept').text(concept);
+      				$('.input-group #search_param').val(param);
+      			});
+      		});
+      	</script> <script type="text/javascript">
+          $('.after-btn').bootstrapNumber();
+        </script> <script type="text/javascript">
+          jQuery(document).ready(function($) {
+            var getHeight_Menu = $('.first-menu .wsmenu-submenu').height();
+            $('.first-menu .wsmenu-submenu-sub').css('height', getHeight_Menu);
+          });
+        </script> <script type="text/javascript">
+          jQuery(document).ready(function($) {
+            $(document).ready(function() {
+              var owl = $("#owl-partner");
+              owl.owlCarousel({
+                pagination: false,
+    					  navigation: true,
+    					  slideSpeed: 1000,
+    					  navigationText: ["<i class=\"fa fa-caret-left\">", "<i class=\"fa fa-caret-right\">"],
+    					  autoPlay: false, //Set AutoPlay to 3 seconds
+
+    					  itemsCustom : [
+    						[0, 2],
+    						[450, 2],
+    						[600, 3],
+    						[700, 4],
+    						[1000, 5],
+    						[1200, 5],
+    						[1400, 5],
+    						[1600, 5]
+    					  ],
+              });
+            });
+          });
+        </script> <script type="text/javascript">
+          jQuery(document).ready(function($) {
+            var windowWidth = $(window).width();
+            var ifsub = $('.header-bottom .first-menu .wsmenu-submenu > li > a.ipad-lans');
+            ifsub.click(function(e) {
+              if(windowWidth == 1024 && $(this).closest('li').find('.wsmenu-submenu-sub').length){
+                e.preventDefault();
+              }
+            });
+          });
+        </script> <script type="text/javascript">
+    	  jQuery(document).ready(function($) {
+            $('#first-menu').click(function(e) {
+    		  $(this).closest('.first-menu').find('.wsmenu-submenu').toggleClass("active");
+    		  e.preventDefault();
+    		});
+          });
+    	</script> <script>
+    		$(document).ready(function() {
+
+    		  var sync1 = $("#sync1");
+    		  var sync2 = $("#sync2");
+
+    		  sync1.owlCarousel({
+    			singleItem : true,
+    			slideSpeed : 1000,
+    			navigation: true,
+    			pagination:false,
+    			afterAction : syncPosition,
+    			responsiveRefreshRate : 200,
+    			transitionStyle : "fade",
+    			mouseDrag: false,
+          navigationText: ["<i class=\"fa fa-angle-left\"></i>", "<i class=\"fa fa-angle-right\"></i>"],
+    		  });
+
+    		  sync2.owlCarousel({
+    			items : 5,
+    			itemsDesktop      : [1199,5],
+    			itemsDesktopSmall     : [979,5],
+    			itemsTablet       : [768,4],
+    			itemsMobile       : [479,3],
+    			pagination:false,
+    			mouseDrag: false,
+    			responsiveRefreshRate : 100,
+    			transitionStyle : "fade",
+    			afterInit : function(el){
+    			  el.find(".owl-item").eq(0).addClass("synced");
+    			}
+    		  });
+
+    		  function syncPosition(el){
+    			var current = this.currentItem;
+    			$("#sync2")
+    			  .find(".owl-item")
+    			  .removeClass("synced")
+    			  .eq(current)
+    			  .addClass("synced")
+    			if($("#sync2").data("owlCarousel") !== undefined){
+    			  center(current)
+    			}
+    		  }
+
+    		  $("#sync2").on("click", ".owl-item", function(e){
+    			e.preventDefault();
+    			var number = $(this).data("owlItem");
+    			sync1.trigger("owl.goTo",number);
+    		  });
+
+    		  function center(number){
+    			var sync2visible = sync2.data("owlCarousel").owl.visibleItems;
+    			var num = number;
+    			var found = false;
+    			for(var i in sync2visible){
+    			  if(num === sync2visible[i]){
+    				var found = true;
+    			  }
+    			}
+
+    			if(found===false){
+    			  if(num>sync2visible[sync2visible.length-1]){
+    				sync2.trigger("owl.goTo", num - sync2visible.length+2)
+    			  }else{
+    				if(num - 1 === -1){
+    				  num = 0;
+    				}
+    				sync2.trigger("owl.goTo", num);
+    			  }
+    			} else if(num === sync2visible[sync2visible.length-1]){
+    			  sync2.trigger("owl.goTo", sync2visible[1])
+    			} else if(num === sync2visible[0]){
+    			  sync2.trigger("owl.goTo", num-1)
+    			}
+
+    		  }
+
+    		});
+    	</script> <script type="text/javascript">
+        jQuery(document).ready(function($){
+          $('.lightbox').lightbox();
+        });
+      </script> <script>
+        $('.carousel').carousel({
+          interval: 5000 //changes the speed
+        })
+      </script> <script type="text/javascript">
+        jQuery(document).ready(function($) {
+          $('.minus-btn').on('click', function(e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $input = $this.closest('div').find('input');
+            var value = parseInt($input.val());
+
+            if (value > 1) {
+              value = value - 1;
+            } else {
+              value = 0;
+            }
+
+            $input.val(value);
+
+          });
+
+          $('.plus-btn').on('click', function(e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $input = $this.closest('div').find('input');
+            var value = parseInt($input.val());
+
+            if (value < 100) {
+              value = value + 1;
+            } else {
+              value =100;
+            }
+
+            $input.val(value);
+          });
+        });
+      </script> </body> </html> 

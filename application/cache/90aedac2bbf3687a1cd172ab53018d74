@@ -1,0 +1,147 @@
+a:2:{s:6:"expire";d:1605585929;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8" /> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <meta name="description" content="Auto website bán hàng online" /> <meta name="keywords" content="Auto website bán hàng online" /> <meta property="og:site_name" content="Auto website bán hàng online" /> <meta property="og:type" content="Website" /> <meta property="og:title" content="Hoa hồng - Auto website bán hàng online" /> <meta property="og:url" content="https://combosale.net/source/automypham/hoa-hong.html" /> <meta property="og:description" content="Auto website bán hàng online" /> <meta property="og:image" content="https://combosale.net/source/automypham/uploads/logo/logo1.png" /> <meta property="fb:app_id" content="124350198151002" /> <title>Hoa hồng - Auto website bán hàng online</title> <link rel="icon" href="https://combosale.net/source/automypham/uploads/logo/favicon-11.ico" type="image/x-icon"> <link href="https://combosale.net/source/automypham/assets/css/bootstrap.min.css" rel="stylesheet"> <link href="https://combosale.net/source/automypham/assets/css/webslidemenu.css" rel="stylesheet"> <link href="https://combosale.net/source/automypham/assets/css/webslidemenu-effect.css" rel="stylesheet"> <link href="https://combosale.net/source/automypham/assets/css/slick.css" rel="stylesheet"> <link href="https://combosale.net/source/automypham/assets/css/slick-theme.css" rel="stylesheet"> <link href="https://combosale.net/source/automypham/assets/css/magiczoomplus.css" rel="stylesheet"> <!-- Custom styles for this template --> <link href="https://combosale.net/source/automypham/assets/css/style.css" rel="stylesheet"> <!-- Custom Fonts --> <link href="https://combosale.net/source/automypham/assets/css/fontawesome-all.min.css" rel="stylesheet" type="text/css"> <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --> <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]--> <script type="text/javascript">
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-', 'auto');
+            ga('send', 'pageview');
+        </script> </head> <body> <script>
+  			window.fbAsyncInit = function() {
+  				FB.init({
+  				  appId      : '124350198151002',
+  				  xfbml      : true,
+  				  version    : 'v2.11'
+  				});
+  			};
+  		</script> <div id="fb-root"></div> <script>(function(d, s, id) {
+  		  var js, fjs = d.getElementsByTagName(s)[0];
+  		  if (d.getElementById(id)) return;
+  		  js = d.createElement(s); js.id = id;
+  		  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.11";
+  		  fjs.parentNode.insertBefore(js, fjs);
+  		}(document, 'script', 'facebook-jssdk'));</script> <!------------------------------------------------------------------> <header> <div class="box-scroll-top"> <i class="fas fa-arrow-up"></i> </div> <div class="box-header"> <div class="block-header-top"> <div class="container"> <div class="row"> <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"> <ul class="header-top-left"> <li> <a href="tel:028 38 49 40 88"><span class="icon--border"> <i class="fas fa-phone-volume"></i></span>028 38 49 40 88</a> </li> <li> <a href="info.ledu.vn@gmail.com"> <span class="icon--border"><i class="far fa-envelope"></i></span>info.ledu.vn@gmail.com</a> </li> </ul> </div> <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"> <ul class="header-top-right"> <li> <a href="#"> <span class="icon--border"><i class="fas fa-clipboard-list"></i></span>Kiểm tra đơn hàng </a> </li> <li> <a href="#"> <span class="icon--border"><i class="fas fa-map-marker-alt"></i></span>Hệ thống cửa hàng </a> </li> </ul> </div> </div> </div> </div> <div class="block-header-center"> <div class="container"> <div class="row"> <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12"> <div class="block-header--logo"> <a href="https://combosale.net/source/automypham/"><img src="https://combosale.net/source/automypham/uploads/logo/logo1.png" alt="./images/logo.png" class="img-fluid"></a> </div> </div> <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 align-seft-center"> <div class="box-search"> <form action="https://combosale.net/source/automypham/search" method="GET" autocomplete="off"> <div class="input-group"> <input type="text" class="form-control input--field search" name="q" value="" placeholder="Tìm kiếm sản phẩm ..."> <div class="input-group-append"> <button class="btn btn--search" type="submit"><i class="fas fa-search"></i></button> </div> </div> </form> </div> </div> <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 align-seft-center"> <div class="block-header-center-right"> <ul> <li class="block-header--account"> <a href="javascript:void(0)"> <img src="https://combosale.net/source/automypham/assets/images/businessman.svg" alt="./images/businessman.svg" class="img-fluid"> </a> <ul class="sub-account"> <li><a href="https://combosale.net/source/automypham/trang-ca-nhan.html">Trang cá nhân</a></li> <li><a href="https://combosale.net/source/automypham/doi-mat-khau.html">Đổi mật khẩu</a></li> <li><a href="https://combosale.net/source/automypham/chia-se-san-pham.html">Chia sẻ sản phẩm</a> </li> <li><a href="https://combosale.net/source/automypham/hoa-hong.html">Hoa hồng</a></li> <li><a class="btn btn--login mt-2" href="https://combosale.net/source/automypham/dang-xuat.html" onclick="if(!confirm('Bạn có muốn đăng xuất?')){return false;}">Đăng xuất</a></li> </ul> </li> <li class="box-cart"> <div class="wsminicart wsminicartmobile clearfix"> <div class="minicart mini-cart"> <div class="block-minicart"> <a href="https://combosale.net/source/automypham/gio-hang.html"><img src="https://combosale.net/source/automypham/assets/images/shopping-cart.svg" alt="./images/shopping-cart.svg" class="img-fluid"></a> <div class="count-item">0</div> <div class="box-cart-hidden"> Chưa có sản phẩm trong giỏ hàng ! </div> </div> </div> </div> </li> </ul> </div> </div> </div> </div> </div> <div class="block-header-bottom"> <div class="container"> <div class="box-menu"> <div class="wsmobileheader clearfix "> <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a> <span class="smllogo"><a href="https://combosale.net/source/automypham/"><img src="https://combosale.net/source/automypham/uploads/logo/logo1.png" width="80" alt="" /></a></span> <div class="box-cart callusbtn"> <div class="wsminicart wsminicartmobile clearfix"> <div class="minicart mini-cart"> <div class="block-minicart"> <a href="https://combosale.net/source/automypham/gio-hang.html"><img src="https://combosale.net/source/automypham/assets/images/shopping-cart.svg" alt="./images/shopping-cart.svg" class="img-fluid"></a> <div class="count-item">0</div> <div class="box-cart-hidden"> Chưa có sản phẩm trong giỏ hàng ! </div> </div> </div> </div> </div> </div> <div class="wsmainwp clearfix"> <nav class="wsmenu clearfix"> <ul class="wsmenu-list"> <li><a href="https://combosale.net/source/automypham/">Trang chủ</a></li><li><a href="https://combosale.net/source/automypham/san-pham.html">Sản phẩm <i class="fas fa-caret-down"></i></a><div class="wsmegamenu clearfix"> <div class="container"> <div class="row row-0px"> <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12"> <div class="row"><div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 link-list"> <ul><h3 class="title"><a href="https://combosale.net/source/automypham/danh-muc-san-pham/shop-new.html">Shop New</a></h3><li><a href="https://combosale.net/source/automypham/danh-muc-san-pham/shop-new.html">Shop New</a></li></ul> </div><div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 link-list"> <ul><h3 class="title"><a href="https://combosale.net/source/automypham/danh-muc-san-pham/sneakers.html">Sneakers</a></h3><li><a href="https://combosale.net/source/automypham/danh-muc-san-pham/sneakers.html">Sneakers</a></li><li><a href="https://combosale.net/source/automypham/danh-muc-san-pham/ao-phong.html">Nike</a></li></ul> </div></div> </div> <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12"> <img src="https://combosale.net/source/automypham/uploads/menu/banner_menu_1.png" alt="./images/banner_menu_1.jpg" class="img-fluid"> </div> </div> </div> </div></li><li><a href="https://combosale.net/source/automypham/tin-tuc.html">Tin tức <i class="fas fa-caret-down"></i></a><ul class="sub-menu"><li><a href="https://combosale.net/source/automypham/tin-tuc.html">Khuyến mãi</a></li></ul></li><li><a href="https://combosale.net/source/automypham/gioi-thieu-56.html">Giới thiệu</a></li><li><a href="https://combosale.net/source/automypham/lien-he.html">Liên hệ</a></li> </ul> </nav> </div> </div> </div> </div> </div> </header> <article> <section class="user-manager-page"> <div class="bg-brea"> <div class="box-wapper"> <div class="container"> <div class="users_commission"> <div class="row"> <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 p-0 block-left-admin"> <ul class="nav nav-pills flex-column"> <li class="nav-item"> <a class="nav-link" href="https://combosale.net/source/automypham/trang-ca-nhan.html"><i class="fa fa-user" aria-hidden="true"></i> Thông tin cá nhân</a> </li> <li class="nav-item"> <a class="nav-link" href="https://combosale.net/source/automypham/don-dat-hang.html"><i class="fas fa-cart-arrow-down"></i> Đơn đặt hàng</a> </li> <li class="nav-item"> <a class="nav-link" href="https://combosale.net/source/automypham/so-dia-chi.html"><i class="fa fa-user" aria-hidden="true"></i> Số địa chỉ</a> </li> <li class="nav-item"> <a class="nav-link" href="https://combosale.net/source/automypham/chia-se-san-pham.html"><i class="fas fa-share-alt-square"></i> Chia sẻ sản phẩm</a> </li> <li class="nav-item"> <a class="nav-link" href="https://combosale.net/source/automypham/hoa-hong.html"><i class="fas fa-dollar-sign"></i> Hoa hồng</a> </li> <li class="nav-item"> <a class="nav-link" href="https://combosale.net/source/automypham/rut-tien.html"><i class="fas fa-exchange-alt"></i> Rút tiền</a> </li> </ul> </div> <div class="col-lg-9 col-md-9 col-sm-9"> <div class="account-structure-page_main-content"> <div class="account-change-email"> <h2 class="account-structure-page_title">Hoa hồng <a href="https://combosale.net/source/automypham/hoa-hong/lich-su.html" class="float-right btn btn--button btn--hover-color">Lịch sử</a> <a href="https://combosale.net/source/automypham/rut-tien.html" class="float-right mr-2 btn btn--button btn--color">Rút tiền</a> </h2> <div class="box-devision-col-mobile"> <div class="row"> <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <div class="info-box"> <span class="info-box-icon bg-lightgreen"> <a href="javascript:void(0)"><i class="far fa-money-bill-alt"></i></a> </span> <div class="info-box-content"> <span class="info-box-text">Tổng số tiền</span> <span class="info-box-number ng-binding">0 VNĐ</span> </div> </div> </div> <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <div class="info-box"> <span class="info-box-icon bg-lightgreen"> <a href="https://combosale.net/source/automypham/rut-tien/lich-su.html" target="_blank"><i class="far fa-money-bill-alt"></i></a> </span> <div class="info-box-content"> <span class="info-box-text">Tiền đã rút</span> <span class="info-box-number ng-binding">0 VNĐ</span> </div> </div> </div> <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <div class="info-box"> <span class="info-box-icon bg-lightgreen"> <a href="javascript:void(0)"><i class="far fa-money-bill-alt"></i></a> </span> <div class="info-box-content"> <span class="info-box-text">Tiền khả dụng</span> <span class="info-box-number ng-binding">0 VNĐ</span> </div> </div> </div> </div> </div> <div class="clearfix"></div> </div> </div> </div> </div> </div> </div> </div> </div> </section> </article> <footer> <div class="box-newsletter"> <div class="container"> <div class="row"> <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 align-seft-center"> <div class="block--title"> <h3 class="main--title">Đăng kí nhận tin khuyến mãi</h3> </div> </div> <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"> <div class="block-newsletter--form"> <form method="POST" action="https://combosale.net/source/automypham/newsletter" id="newsletter-signup"> <div class="input-group"> <input type="email" id="signup_email" name="signup_email" class="form-control input--field" placeholder="Nhập email của bạn ..."> <div class="input-group-append"> <button type="submit" class="btn btn--newsletter">Đăng ký</button> </div> </div> </form> </div> </div> </div> </div> </div> <div class="box-footer"> <div class="container"> <div class="block-footer"> <div class="row"> <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> <div class="block-footer--logo"> <a href="https://combosale.net/source/automypham/"><img src="https://combosale.net/source/automypham/uploads/logo/logo_footer.png" alt="./images/logo_footer.png" class="img-fluid"></a> </div> <div class="block-footer--address"> <h3> <span>Shop mỹ phẩm Cool Beauty </span> <span>Làm đẹp trở nên dễ dàng hơn</span> </h3> <ul> <li>Địa chỉ: Quận 12, Thành phố Hồ Chí Minh </li> <li>Hotline: 028 38 49 40 88 </li> <li>Email: info.ledu.vn@gmail.com </li> </ul> </div> </div> <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12"> <div class="row"> <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-6"> <div class="block-footer--title"> <h3>HỖ TRỢ KHÁCH HÀNG</h3> </div> <div class="block-footer--list"> <ul> <li><a href="#">Trang chủ</a></li> <li><a href="#">Giới thiệu</a></li> <li><a href="#">Sản phẩm</a></li> <li><a href="#">Khuyến mãi hot</a></li> <li><a href="#">Tin tức</a></li> <li><a href="#">Liên hệ</a></li> </ul> </div> </div> <div class="col-xl-4 col-lg-3 col-md-3 col-sm-12 col-6"> <div class="block-footer--title"> <h3>Chính sách</h3> </div> <div class="block-footer--list"> <ul> <li><a href="#">Trang chủ</a></li> <li><a href="#">Giới thiệu</a></li> <li><a href="#">Sản phẩm</a></li> <li><a href="#">Khuyến mãi hot</a></li> <li><a href="#">Tin tức</a></li> <li><a href="#">Liên hệ</a></li> </ul> </div> </div> <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12"> <div class="block-footer--contact"> <div class="block-footer--title"> <h3>Kết nối với chúng tôi</h3> </div> <ul> <li> <a href=""><i class="fab fa-facebook-f"></i></a> </li> <li> <a href="#tw"><i class="fab fa-twitter"></i></a> </li> <li> <a href="#g+1"><i class="fab fa-google"></i></a> </li> <li> <a href="#instagram_page"><i class="fab fa-instagram"></i></a> </li> <li> <a href="#yt"><i class="fab fa-youtube"></i></a> </li> </ul> </div> <div class="block-footer--payment"> <div class="block-footer--title"> <h3>Phương thức thanh toán</h3> </div> <a href="#"><img src="https://combosale.net/source/automypham/uploads/images/i_payment_03.png" alt="./images/i_payment.png" class="img-fluid"> </a> </div> </div> </div> </div> </div> </div> </div> </div> <div class="box-copyright"> <p>© Bản quyền thuộc về <span>Cool Team</span> | Cung cấp bởi <a href="#">Sapo</a></p> </div> </footer> <div class="pop-up-quickview"> <div id="myModal" class="modal fade" role="dialog"> <div class="modal-dialog modal-lg"> <div class="modal-content"> <button type="button" class="close" data-dismiss="modal">&times;</button> <div class="modal-body iframe-load"></div> </div> </div> </div> </div> <div class="icons-hotline-fixed"> <div class="box-hotline-fixed-bottom"> <div class="close-hotline"><img src="https://combosale.net/source/automypham/assets/images/close_error.png" alt="" class="img-fluid"></div> <a href=""> <p>Hotline tư vấn (24/7)</p> <h3>028 38 49 40 88</h3> </a> </div> <div class="open-hotline"><img src="https://combosale.net/source/automypham/assets/images/call.png" alt="" class="img-fluid"></div> </div> <a href="tel:028 38 49 40 88"> <div class="hoancau-alo-phone"> <div class="hoancau-alo-ph-circle"></div> <div class="hoancau-alo-ph-circle-fill"></div> <div class="hoancau-alo-ph-img-circle delaiso"></div> </div> </a> <!------------------------------------------------------------------> <script type="text/javascript">
+            base_url = 'https://combosale.net/source/automypham/';
+            logo = 'https://combosale.net/source/automypham/uploads/logo/logo1.png';
+        </script> <script src="https://combosale.net/source/automypham/assets/js/jquery-3.3.1.slim.min.js"></script> <script src="https://combosale.net/source/automypham/assets/js/popper.min.js"></script> <script src="https://combosale.net/source/automypham/assets/js/bootstrap.min.js"></script> <script src="https://combosale.net/source/automypham/assets/js/webslidemenu.js"></script> <script src="https://combosale.net/source/automypham/assets/js/slick.min.js"></script> <script src="https://combosale.net/source/automypham/assets/js/magiczoomplus.js"></script> <script src="https://combosale.net/source/automypham/assets/js/bootstrap-number-input.js "></script> <script src="https://combosale.net/source/automypham/assets/js/index.js"></script> <script src="https://combosale.net/source/automypham/assets/modules/shops/js/cart.js" type="text/javascript"></script> <script src="https://combosale.net/source/automypham/assets/modules/newsletter/js/newsletter.js" type="text/javascript"></script> <script src="https://stats.viennam.com/site/log"></script> <!-- <script type="text/javascript">
+          $("<li class=\"logo\"><a href=\"" + base_url + "\"><img src=\"" + logo + "\" class=\"img-fluid\"></a></li>").insertAfter(".box-header .header-bottom--menu-main .wsmenu-list>li:eq(2)");
+        </script> --> <script type="text/javascript">
+          $(function () {
+            $("#online").html(onlineLog.Online);
+            $("#today").html(onlineLog.Today);
+            $("#thismonth").html(onlineLog.ThisMonth);
+            $("#total").html(onlineLog.Total);
+          });
+        </script> <script>
+          (function ($) {
+            $(document).on("click", "a.open-popup-product", function(e) {
+              e.preventDefault();
+              var id = $(this).attr('data-id');
+              //console.log('id: ' + id);
+              var noidungpopup = $('#product' + id).html();
+              //console.log('noidungpopup: ' + noidungpopup);
+              $("#myModal .iframe-load").html(noidungpopup);
+              $("#myModal").modal("show");
+              return false;
+
+              //console.log(arrs[id]);
+            });
+
+            $(document).ready(function(){
+              $('#myModal').on('hidden.bs.modal', function () {
+                $("#myModal .iframe-load").html('');
+              });
+            });
+          })(jQuery);
+        </script> <script>
+          (function ($) {
+            $('#myModal').on('shown.bs.modal', function (e) {
+              var sync1 = $("#sync1");
+              var sync2 = $("#sync2");
+
+              sync1.owlCarousel({
+                singleItem : true,
+                slideSpeed : 1000,
+                navigation: true,
+                pagination:false,
+                afterAction : syncPosition,
+                responsiveRefreshRate : 200,
+                transitionStyle : "fade",
+                mouseDrag: false,
+                navigationText: ["<i class=\"fas fa-angle-left\"></i>", "<i class=\"fas fa-angle-right\"></i>"],
+              });
+
+              sync2.owlCarousel({
+                itemsCustom: [
+                  [0, 3],
+                  [450, 3],
+                  [600, 4],
+                  [700, 4],
+                  [1000, 4],
+                  [1200, 4],
+                  [1400, 4],
+                  [1600, 4]
+                ],
+                pagination:false,
+                mouseDrag: false,
+                responsiveRefreshRate : 100,
+                transitionStyle : "fade",
+                afterInit : function(el){
+                  el.find(".owl-item").eq(0).addClass("synced");
+                }
+              });
+
+              function syncPosition(el){
+                var current = this.currentItem;
+                $("#sync2")
+                .find(".owl-item")
+                .removeClass("synced")
+                .eq(current)
+                .addClass("synced")
+                if($("#sync2").data("owlCarousel") !== undefined){
+                  center(current)
+                }
+              }
+
+              $("#sync2").on("click", ".owl-item", function(e){
+                e.preventDefault();
+                var number = $(this).data("owlItem");
+                sync1.trigger("owl.goTo",number);
+              });
+
+              function center(number){
+                var sync2visible = sync2.data("owlCarousel").owl.visibleItems;
+                var num = number;
+                var found = false;
+                for(var i in sync2visible){
+                  if(num === sync2visible[i]){
+                    var found = true;
+                  }
+                }
+
+                if(found===false){
+                  if(num>sync2visible[sync2visible.length-1]){
+                    sync2.trigger("owl.goTo", num - sync2visible.length+2)
+                  }else{
+                    if(num - 1 === -1){
+                      num = 0;
+                    }
+                    sync2.trigger("owl.goTo", num);
+                  }
+                } else if(num === sync2visible[sync2visible.length-1]){
+                  sync2.trigger("owl.goTo", sync2visible[1])
+                } else if(num === sync2visible[0]){
+                  sync2.trigger("owl.goTo", num-1)
+                }
+
+              }
+            });
+          })(jQuery);
+        </script> </body> </html> 

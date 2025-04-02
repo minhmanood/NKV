@@ -1,0 +1,133 @@
+a:2:{s:6:"expire";d:1511150954;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8" /> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <meta name="description" content="" /> <meta name="keywords" content="" /> <meta property="og:site_name" content="Sắt thép cường phát" /> <meta property="og:type" content="Website" /> <meta property="og:title" content="RAU THƠM - " /> <meta property="og:url" content="http://webdoanhnghiep.info/demo/source/xenhim/danh-muc-san-pham/rau-thom.html" /> <meta property="og:description" content="" /> <title>RAU THƠM - </title> <link rel="icon" href="http://webdoanhnghiep.info/demo/source/xenhim/uploads/logo/favicon-8.ico" type="image/x-icon"> <link href="http://webdoanhnghiep.info/demo/source/xenhim/assets/css/bootstrap.min.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xenhim/assets/css/webslidemenu.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xenhim/assets/css/owl.carousel.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xenhim/assets/css/owl.theme.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xenhim/assets/css/owl.transitions.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xenhim/assets/css/slick.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xenhim/assets/css/slick-theme.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xenhim/assets/css/style.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xenhim/assets/css/font-awesome.min.css" rel="stylesheet"> <link href="http://webdoanhnghiep.info/demo/source/xenhim/assets/css/material-icons.css" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet"> <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --> <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]--> </head> <body> <header> <div class="box-header"> <div class="header-top"> <div class="container"> <div class="row"> <div class="col-lg-3 col-md-3 col-sm-3"> <a href="http://webdoanhnghiep.info/demo/source/xenhim/"><img src="http://webdoanhnghiep.info/demo/source/xenhim/uploads/logo/logo1.png" alt="" class="img-responsive center-block logo"></a> </div> <div class="col-lg-9 col-md-9 col-sm-9"> <div class="hotline"> <span>Hotline: +84 988 503 579 (VIBER)</span> <span>Email: lienhe@cafetuiloc.vn</span> </div> <div class="box-search"> <form method="GET" action="http://webdoanhnghiep.info/demo/source/xenhim/search" autocomplete="off"> <div class="input-group"> <input name="q" type="text" class="form-control" value="" placeholder="Nhập từ khóa..."> <span class="input-group-btn"> <button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button> </span> </div> </form> </div> </div> <div class="clearfix"></div> <div class="col-lg-12 col-md-12 col-sm-12"> <div class="main-menu"> <div class="wsmenucontainer clearfix"> <div class="overlapblackbg"></div> <div class="wsmobileheader clearfix"> <a id="wsnavtoggle" class="animated-arrow"><span></span></a> </div> <div class="container"> <!--Main Menu HTML Code--> <nav class="wsmenu clearfix"> <ul class="mobile-sub wsmenu-list"> <li><a class="active" href="index.html">GIỚI THIỆU <small>VỀ CHÚNG TÔI</small></a></li> <li> <a href="sanpham.html">DỊCH VỤ <small>CÁC DỊCH VỤ CUNG CẤP</small><span class="arrow"></span></a> <div class="megamenu clearfix"> <ul class="col-lg-3 col-md-3 link-list"> <li class="title"><a href="sanpham.html">Camera Và Đầu Thu</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> </ul> <ul class="col-lg-3 col-md-3 link-list"> <li class="title"><a href="sanpham.html">Camera Và Đầu Thu</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> </ul> <ul class="col-lg-3 col-md-3 link-list"> <li class="title"><a href="sanpham.html">Camera Và Đầu Thu</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> </ul> <ul class="col-lg-3 col-md-3 link-list"> <li class="title"><a href="sanpham.html">Camera Và Đầu Thu</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> </ul> <ul class="col-lg-3 col-md-3 link-list"> <li class="title"><a href="sanpham.html">Camera Và Đầu Thu</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> </ul> </div> </li> <li> <a href="sanpham.html">SẢN PHẨM <small>SẢN PHẨM ĐỒ CHƠI XE</small><span class="arrow"></span></a> <div class="megamenu clearfix"> <ul class="col-lg-3 col-md-3 link-list"> <li class="title"><a href="sanpham.html">Camera Và Đầu Thu</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> </ul> <ul class="col-lg-3 col-md-3 link-list"> <li class="title"><a href="sanpham.html">Camera Và Đầu Thu</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> </ul> <ul class="col-lg-3 col-md-3 link-list"> <li class="title"><a href="sanpham.html">Camera Và Đầu Thu</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> </ul> <ul class="col-lg-3 col-md-3 link-list"> <li class="title"><a href="sanpham.html">Camera Và Đầu Thu</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> </ul> <ul class="col-lg-3 col-md-3 link-list"> <li class="title"><a href="sanpham.html">Camera Và Đầu Thu</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> <li><a href="sanpham.html"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li> </ul> </div> </li> <li><a href="huongdan.html">TIN TỨC <small>TIN TỨC VÀ KHUYẾN MÃI</small><span class="arrow"></span></a> <ul class="wsmenu-submenu"> <li><a href="product-fw.html"><i class="fa fa-angle-right"></i>PRODUCT</a></li> <li><a href="product-fw.html"><i class="fa fa-angle-right"></i>PRODUCT</a></li> <li><a href="product-fw.html"><i class="fa fa-angle-right"></i>PRODUCT</a></li> <li><a href="product-fw.html"><i class="fa fa-angle-right"></i>PRODUCT</a></li> <li><a href="product-fw.html"><i class="fa fa-angle-right"></i>PRODUCT</a></li> </ul> </li> <li><a href="tintuc.html">LIÊN HỆ <small>LIÊN LẠC VỚI CHÚNG TÔI</small></a></li> </ul> </nav> <!--Menu HTML Code--> </div> </div> </div> </div> </div> </div> </div> </div> </header> <article> <section> <div class="box-breadcrumb"> <img src="http://webdoanhnghiep.info/demo/source/xenhim/assets/images/slideee_01.png" alt="" class="img-responsive"> <div class="container"> <div class="row"> <div class="bg-breadcrumb"> <ol class="breadcrumb"> <li><a href="http://webdoanhnghiep.info/demo/source/xenhim/">Trang chủ</a></li> <li><a href="http://webdoanhnghiep.info/demo/source/xenhim/san-pham.html">Sản phẩm</a></li> <li class="active">RAU THƠM</li> </ol> </div> </div> </div> </div> </section> <section> <div class="box-product"> <div class="container"> <div class="row"> </div> </div> </div> </section> </article> <footer> <div class="line-footer"></div> <div class="box-footer"> <div class="container"> <div class="row"> <div class="col-lg-3 col-md-3 col-sm-3"> <img src="http://webdoanhnghiep.info/demo/source/xenhim/uploads/logo/logo1.png" alt="" class="logo-footer center-block img-responsive"> <div class="block-content"> <h4><strong>CÔNG TY TNHH VẬN TẢI LƯƠNG THỰC THỰC PHẨM BẢO VIỆT</strong><br /> <span style="font-size:14px;">Địa chỉ : A75/6E/5 Bạch Đằng, Phường 2, Quận Tân Bình, Tp. HCM<br /> Chi nhánh: Số 33/7A ấp Mới 1, xã Tân Xuân, Huyện Hóc Môn, Tp.HCM<br /> Điện thoại: 08.371 022 97 - 091 774 99 22<br /> Email: tp.baoviet@gmail.com<br /> Website: www.cungcapthucpham.net</span></h4> </div> </div> <div class="col-lg-3 col-md-3 col-sm-3"> <h3 class="title">DỊCH VỤ</h3> <div class="block-content"> <ul> </ul> </div> </div> <div class="col-lg-3 col-md-3 col-sm-3"> <h3 class="title">SẢN PHẨM</h3> <div class="block-content"> <ul> <li><a href="http://webdoanhnghiep.info/demo/source/xenhim/danh-muc-san-pham/bot-gia-vi.html">BỘT GIA VỊ</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xenhim/danh-muc-san-pham/mat-ong-rung.html">MẬT ONG RỪNG</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xenhim/danh-muc-san-pham/nong-san-say.html">NÔNG SẢN SẤY</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xenhim/danh-muc-san-pham/nong-san-nhap-khau.html">NÔNG SẢN NHẬP KHẨU</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xenhim/danh-muc-san-pham/rau-cu-qua-sach.html">RAU CỦ QUẢ SẠCH</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xenhim/danh-muc-san-pham/rau-thom.html">RAU THƠM</a></li> </ul> </div> </div> <div class="col-lg-3 col-md-3 col-sm-3"> <h3 class="title">FANPAGE</h3> <div class="block-content"> <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkhoanhkhaccuocsong1101%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="215px;" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> </div> </div> </div> </div> </div> <div class="copyright"> <div class="container"> <ul> <li><a href="http://webdoanhnghiep.info/demo/source/xenhim/">TRANG CHỦ</a></li><li><a href="">TỔ CHỨC SỰ KIỆN</a></li><li><a href="">DỊCH VỤ CHO THUÊ</a></li><li><a href="">TIN TỨC</a></li><li><a href="">TUYỂN DỤNG</a></li><li><a href="http://webdoanhnghiep.info/demo/source/xenhim/">LIÊN HỆ</a></li> </ul> <p>© Copyright 2017 by BaoViet. All rights reserved.</p> <button id="back-to-top" class="btn btn-primary back-to-top" role="button"><i class="fa fa-angle-up" aria-hidden="true"></i></button> </div> </div> <div class="social"> <div class="container"> <span><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></span> <span><a href="#tw"><i class="fa fa-twitter" aria-hidden="true"></i></a></span> <span><a href="#g+1"><i class="fa fa-google" aria-hidden="true"></i></a></span> <span><a href="#yt"><i class="fa fa-youtube" aria-hidden="true"></i></a></span> <span><a href="#sky"><i class="fa fa-rss" aria-hidden="true"></i></a></span> </div> </div> </footer> <script src="http://webdoanhnghiep.info/demo/source/xenhim/assets/js/jquery.js"></script> <script src="http://webdoanhnghiep.info/demo/source/xenhim/assets/js/bootstrap.min.js"></script> <script src="http://webdoanhnghiep.info/demo/source/xenhim/assets/js/webslidemenu.js"></script> <script src="http://webdoanhnghiep.info/demo/source/xenhim/assets/js/owl.carousel.min.js"></script> <script src="http://webdoanhnghiep.info/demo/source/xenhim/assets/js/slick.min.js"></script> <script src="http://webdoanhnghiep.info/demo/source/xenhim/assets/js/jquery.lightbox.min.js"></script> <script type="text/javascript">
+          jQuery(document).ready(function($){
+            $('.lightbox').lightbox();
+          });
+        </script> <script type="text/javascript">
+          $('.carousel-featured').slick({
+            dots: true,
+            infinite: false,
+            slidesPerRow: 4,
+            rows: 2,
+            prevArrow: $(".pp2"),
+            nextArrow: $(".nn2"),
+            responsive: [
+              {
+                breakpoint: 480,
+                settings: {
+                  slidesPerRow: 2,
+                  rows: 2,
+                }
+              },
+              {
+                breakpoint: 380,
+                settings: {
+                  slidesPerRow: 1,
+                  rows: 2,
+                }
+              }
+              // You can unslick at a given breakpoint now by adding:
+              // settings: "unslick"
+              // instead of a settings object
+            ]
+          });
+        </script> <script type="text/javascript">
+          jQuery(document).ready(function($) {
+            $('.tabs-item-video:first-child').addClass('active');
+            $('.tabs-item-video').click(function(){
+              $('.tabs-item-video').each(function(i) {
+                $(this).removeClass('active');
+              });
+              $(this).addClass('active');
+            });
+          });
+        </script> <script type="text/javascript">
+          $(document).ready(function(){
+            $('#back-to-top').click(function () {
+              $('#back-to-top').tooltip('hide');
+              $('body,html').animate({
+                scrollTop: 0
+              }, 800);
+              return false;
+            });
+
+          });
+        </script> <script>
+      		$(document).ready(function() {
+
+      		  var sync1 = $("#sync1");
+      		  var sync2 = $("#sync2");
+
+      		  sync1.owlCarousel({
+      			singleItem : true,
+      			slideSpeed : 1000,
+      			navigation: true,
+      			pagination:false,
+      			afterAction : syncPosition,
+      			responsiveRefreshRate : 200,
+      			transitionStyle : "fade",
+      			mouseDrag: false,
+            navigationText: ["<i class=\"material-icons\">keyboard_arrow_left</i>", "<i class=\"material-icons\">keyboard_arrow_right</i>"],
+      		  });
+
+      		  sync2.owlCarousel({
+      			items : 5,
+      			itemsDesktop      : [1199,5],
+      			itemsDesktopSmall     : [979,5],
+      			itemsTablet       : [768,4],
+      			itemsMobile       : [479,3],
+      			pagination:false,
+      			mouseDrag: false,
+      			responsiveRefreshRate : 100,
+      			transitionStyle : "fade",
+      			afterInit : function(el){
+      			  el.find(".owl-item").eq(0).addClass("synced");
+      			}
+      		  });
+
+      		  function syncPosition(el){
+      			var current = this.currentItem;
+      			$("#sync2")
+      			  .find(".owl-item")
+      			  .removeClass("synced")
+      			  .eq(current)
+      			  .addClass("synced")
+      			if($("#sync2").data("owlCarousel") !== undefined){
+      			  center(current)
+      			}
+      		  }
+
+      		  $("#sync2").on("click", ".owl-item", function(e){
+      			e.preventDefault();
+      			var number = $(this).data("owlItem");
+      			sync1.trigger("owl.goTo",number);
+      		  });
+
+      		  function center(number){
+      			var sync2visible = sync2.data("owlCarousel").owl.visibleItems;
+      			var num = number;
+      			var found = false;
+      			for(var i in sync2visible){
+      			  if(num === sync2visible[i]){
+      				var found = true;
+      			  }
+      			}
+
+      			if(found===false){
+      			  if(num>sync2visible[sync2visible.length-1]){
+      				sync2.trigger("owl.goTo", num - sync2visible.length+2)
+      			  }else{
+      				if(num - 1 === -1){
+      				  num = 0;
+      				}
+      				sync2.trigger("owl.goTo", num);
+      			  }
+      			} else if(num === sync2visible[sync2visible.length-1]){
+      			  sync2.trigger("owl.goTo", sync2visible[1])
+      			} else if(num === sync2visible[0]){
+      			  sync2.trigger("owl.goTo", num-1)
+      			}
+
+      		  }
+
+      		});
+      	</script> </body> </html> 

@@ -1,0 +1,326 @@
+a:2:{s:6:"expire";d:1743499295;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE HTML> <html> <head> <meta charset="utf-8" /> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <meta name="description" content="Nhất Kiến Văn" /> <meta name="keywords" content="Nhất Kiến Văn" /> <meta property="og:site_name" content="Nhất Kiến Văn" /> <meta property="og:type" content="Website" /> <meta property="og:title" content="Blog - Nhất Kiến Văn" /> <meta property="og:url" content="https://localhost/nhatkienvan/danh-muc-bai-viet/blog.html" /> <meta property="og:description" content="Nhất Kiến Văn" /> <meta property="og:image" content="https://localhost/nhatkienvan/uploads/logo/1-1.png" /> <meta property="fb:app_id" content="124350198151002" /> <!-- google --> <meta itemprop="name" content="Nhất Kiến Văn"> <meta itemprop="description" content="Nhất Kiến Văn"> <meta itemprop="image" content="https://localhost/nhatkienvan/uploads/logo/1-1.png"> <!-- Twitter --> <meta name="twitter:card" content="summary_large_image"> <meta name="twitter:site" content="Nhất Kiến Văn"> <meta name="twitter:title" content="Blog - Nhất Kiến Văn"> <meta name="twitter:description" content="Nhất Kiến Văn"> <meta name="twitter:creator" content="@author_handle"> <meta name="twitter:image:src" content="https://localhost/nhatkienvan/uploads/logo/1-1.png"> <title>Blog - Nhất Kiến Văn</title> <!-- <link rel="icon" href="https://localhost/nhatkienvan/uploads/logo/favicon.ico" type="image/x-icon"> <link rel="stylesheet" href="https://localhost/nhatkienvan/assets/css/plugins.css" /> <link rel="stylesheet" href="https://localhost/nhatkienvan/assets/css/wdag.css" /> <link rel="stylesheet" href="https://localhost/nhatkienvan/assets/css/custom.css" /> --> <!-- Fonts --> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <link href="https://fonts.googleapis.com/" rel="preconnect"> <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet"> <!-- Vendor CSS Files --> <link href="https://bootstrapmade.com/content/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"> <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"> <link href="https://bootstrapmade.com/content/vendors/aos/aos.css" rel="stylesheet"> <link href="https://bootstrapmade.com/content/vendors/glightbox/css/glightbox.min.css" rel="stylesheet"> <link href="https://bootstrapmade.com/content/vendors/swiper/swiper-bundle.min.css" rel="stylesheet"> <!-- Main CSS File --> <link href="https://localhost/nhatkienvan/assets/css/custom.css" rel="stylesheet"> <script type="text/javascript">
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-', 'auto');
+        ga('send', 'pageview');
+    </script> </head> <body> <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '124350198151002',
+                xfbml: true,
+                version: 'v2.11'
+            });
+        };
+    </script> <div id="fb-root"></div> <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.11";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script> <!-- <div class="page-loader bg-white"> <div class="v-center"> <div class="loader-square bg-colored"></div> </div> </div> --> <header id="header" class="header d-flex align-items-center fixed-top"> <div class="container-fluid container-xl position-relative d-flex align-items-center"> <a href="index.html" class="logo d-flex align-items-center me-auto"> <!-- Uncomment the line below if you also wish to use an image logo --> <h1 class="sitename">Sports Zone</h1> </a> <nav id="navmenu" class="navmenu"> <ul> <!-- <li><a href="blog-details.html" class="active">Giới thiệu<br></a></li> <li class="dropdown"><a href="#"><span>Giải đấu</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a> <ul> <li><a href="blog-details.html">Bóng đá</a></li> <li><a href="blog-details.html">Chạy bộ</a></li> <li><a href="blog-details.html">Khác</a></li> </ul> </li> <li><a href="blog-details.html">Đăng ký tổ chức</a></li> <li><a href="blog.html">Tin tức</a></li> <li><a href="contact.html">Liên hệ</a></li> --> <li><a class="active" href="https://localhost/nhatkienvan/">Trang chủ</a></li><li><a class="active" href="https://localhost/nhatkienvan/gioi-thieu/gioi-thieu-cong-ty-214.html">Giới thiệu</a></li><li class="dropdown "><a class="active" href="https://localhost/nhatkienvan/danh-muc-bai-viet/dich-vu.html">Dịch vụ <i class="bi bi-chevron-down"></i></a><ul class="toggle-dropdown"><li><a href="https://localhost/nhatkienvan/dich-vu/dich-vu-tu-van-quan-ly-215.html" class="active">Dịch vụ tư vấn quản lý</a></li><li><a href="https://localhost/nhatkienvan/dich-vu/dich-vu-truyen-thong-marketing-tong-the-216.html" class="active">Dịch vụ truyền thông, marketing tổng thể</a></li><li><a href="https://localhost/nhatkienvan/dich-vu/dich-vu-media-chuyen-nghiep-217.html" class="active">Dịch vụ media chuyên nghiệp</a></li><li><a href="https://localhost/nhatkienvan/dich-vu/dich-vu-to-chuc-su-kien-218.html" class="active">Dịch vụ tổ chức sự kiện v� xúc tiến thương mại</a></li><li><a href="https://localhost/nhatkienvan/dich-vu/dich-vu-tu-van-viet-du-an-dau-tu-219.html" class="active">Dịch vụ tư vấn, viết dự án đầu tư</a></li></ul></li><li><a href="https://localhost/nhatkienvan/danh-muc-bai-viet/blog.html">Blog</a></li><li><a class="active" href="https://localhost/nhatkienvan/danh-muc-bai-viet/tin-tuc.html">Tin tức</a></li><li><a class="active" href="https://localhost/nhatkienvan/danh-muc-bai-viet/tuyen-dung.html">Tuyển dụng</a></li><li><a class="active" href="https://localhost/nhatkienvan/lien-he.html">Liên hệ</a></li> </ul> <i class="mobile-nav-toggle d-xl-none bi bi-list"></i> </nav> <a class="btn-getstarted flex-md-shrink-0" href="#about">Call Center</a> </div> </header> <section id="home" class="md-py t-center white fullwidth"> <div class="bg-parallax skrollr" data-anchor-target="#home" data-0="transform:translate3d(0, 0px, 0px);" data-900="transform:translate3d(0px, 150px, 0px);" data-background="https://localhost/nhatkienvan/uploads/logo/banner-gioi-thieu.jpg"></div> <div class="container-md skrollr" data-0="opacity:1; transform:translateY(0px);" data-700="opacity:0; transform:translateY(230px);"> <div class="t-center dark"> <h1 class="bold-title white lh-sm uppercase"></h1> <ol class="breadcrumb"> <li class='breadcrumb-item white-hover gray3 slow'><a href='https://localhost/nhatkienvan/'>Trang chủ</a></li><li class='breadcrumb-item white c-default'>Blog</li> </ol> </div> </div> </section> <section id="news" class="t-center sm-py"> <div class="container clearfix"> <div class="row image-boxes"> <div class="col-md-4 xs-mb"> <a href="https://localhost/nhatkienvan/blog/thiet-ke-bo-nhan-dien-thuong-hieu-213.html"> <div class="item strip-btn-trigger"> <div class="image-slider"> <div><img src="https://localhost/nhatkienvan/media/posts/336x224x1-no-image-thumb.png" alt="Thiết kế bộ nhận diện thương hiệu"></div> </div> <h3 class="title dark bold font-18">Thiết kế bộ nhận diện thương hiệu</h3> <p class="desc">Bộ nhận diện thương hiệu được coi l� l� yếu tố giúp doanh nghiệp trở&#8230;</p> </div> </a> </div> <div class="col-md-4 xs-mb"> <a href="https://localhost/nhatkienvan/blog/tai-sao-can-thiet-ke-nhan-dien-thuong-hieu-211.html"> <div class="item strip-btn-trigger"> <div class="image-slider"> <div><img src="https://localhost/nhatkienvan/media/posts/336x224x1-no-image-thumb.png" alt="T� I SAO CẦN THIẾT KẾ NHẬN DIỆN THƯ� NG HIỆU?"></div> </div> <h3 class="title dark bold font-18">T� I SAO CẦN THIẾT KẾ NHẬN DIỆN THƯ� NG HIỆU?</h3> <p class="desc">Doanh nghiệp muốn đi đường d� i nhất định phải có nhận diện thương hiệu.&#8230;</p> </div> </a> </div> <div class="col-md-4 xs-mb"> <a href="https://localhost/nhatkienvan/blog/quang-cao-207.html"> <div class="item strip-btn-trigger"> <div class="image-slider"> <div><img src="https://localhost/nhatkienvan/media/posts/336x224x1-no-image-thumb.png" alt="Quảng cáo"></div> </div> <h3 class="title dark bold font-18">Quảng cáo</h3> <p class="desc">Trong những năm gần đây, quảng cáo được rất nhiều doanh nghiệp ứng dụng trong&#8230;</p> </div> </a> </div> <div class="col-md-4 xs-mb"> <a href="https://localhost/nhatkienvan/blog/quy-trinh-thiet-ke-nhat-kien-van-206.html"> <div class="item strip-btn-trigger"> <div class="image-slider"> <div><img src="https://localhost/nhatkienvan/media/posts/336x224x1-no-image-thumb.png" alt="QUY TRÌNH THIẾT KẾ NHẤT KIẾN VĂN"></div> </div> <h3 class="title dark bold font-18">QUY TRÌNH THIẾT KẾ NHẤT KIẾN VĂN</h3> <p class="desc"> Nhất Kiến Văn l� công ty thiết kế chuyên nghiệp, chúng tôi luôn đề cao&#8230;</p> </div> </a> </div> <div class="col-md-4 xs-mb"> <a href="https://localhost/nhatkienvan/blog/doanh-nghiep-nao-ma-cha-can-thiet-phai-lam-website-205.html"> <div class="item strip-btn-trigger"> <div class="image-slider"> <div><img src="https://localhost/nhatkienvan/media/posts/336x224x1-no-image-thumb.png" alt="Doanh nghiệp n� o m� chả cần thiết phải l� m WEBSITE"></div> </div> <h3 class="title dark bold font-18">Doanh nghiệp n� o m� chả cần thiết phải l� m WEBSITE</h3> <p class="desc">Doanh nghiệp n� o m� chả cần thiết phải l� m WEBSITE</p> </div> </a> </div> <div class="col-md-4 xs-mb"> <a href="https://localhost/nhatkienvan/blog/lam-sao-de-tang-toc-do-ban-hang-online-dip-cuoi-nam-204.html"> <div class="item strip-btn-trigger"> <div class="image-slider"> <div><img src="https://localhost/nhatkienvan/media/posts/336x224x1-no-image-thumb.png" alt="LÀM SAO ĐỂ TĂNG TỐC ĐỘ BÁN HÀNG ONLINE DỊP CUỐI NĂM?"></div> </div> <h3 class="title dark bold font-18">LÀM SAO ĐỂ TĂNG TỐC ĐỘ BÁN HÀNG ONLINE DỊP CUỐI NĂM?</h3> <p class="desc">​Một năm chịu ảnh hưởng bởi Covid-19 đã khiến các dịch vụ bán h� ng&#8230;</p> </div> </a> </div> <div class="col-md-4 xs-mb"> <a href="https://localhost/nhatkienvan/blog/nhung-dieu-can-biet-neu-bo-pho-ve-que-lam-homestay-farmstay-185.html"> <div class="item strip-btn-trigger"> <div class="image-slider"> <div><img src="https://localhost/nhatkienvan/media/posts/336x224x1-no-image-thumb.png" alt="Những điều cần biết nếu ‘bỏ phố về quê’ l� m homestay, farmstay"></div> </div> <h3 class="title dark bold font-18">Những điều cần biết nếu ‘bỏ phố về quê’ l� m homestay, farmstay</h3> <p class="desc">Để xây dựng, duy trì một farmstay, homestay, nh� đầu tư cần lên kế hoạch&#8230;</p> </div> </a> </div> <div class="col-md-4 xs-mb"> <a href="https://localhost/nhatkienvan/blog/viet-nam-quoc-gia-da-bien-ca-phe-tro-thanh-do-uong-binh-dan-170.html"> <div class="item strip-btn-trigger"> <div class="image-slider"> <div><img src="https://localhost/nhatkienvan/media/posts/336x224x1-no-image-thumb.png" alt="VIỆT NAM - QUỐC GIA ĐÃ BIẾN CÀ PHÊ TRỞ THÀNH ĐỒ UỐNG BÌNH DÂN"></div> </div> <h3 class="title dark bold font-18">VIỆT NAM - QUỐC GIA ĐÃ BIẾN CÀ PHÊ TRỞ THÀNH ĐỒ UỐNG BÌNH DÂN</h3> <p class="desc">Ít ai biết rằng c� phê có nguồn gốc từ Ethiopia v� suốt h� ng&#8230;</p> </div> </a> </div> <div class="col-md-4 xs-mb"> <a href="https://localhost/nhatkienvan/blog/quan-tri-noi-dung-fanpage-chuyen-nghiep-va-hieu-qua-154.html"> <div class="item strip-btn-trigger"> <div class="image-slider"> <div><img src="https://localhost/nhatkienvan/media/posts/336x224x1-no-image-thumb.png" alt="QUẢN TRỊ NỘI DUNG FANPAGE CHUYÊN NGHIỆP VÀ HIỆU QUẢ"></div> </div> <h3 class="title dark bold font-18">QUẢN TRỊ NỘI DUNG FANPAGE CHUYÊN NGHIỆP VÀ HIỆU QUẢ</h3> <p class="desc">Giúp đối tác ký hợp đồng với công ty sẽ tìm ra được đúng xu&#8230;</p> </div> </a> </div> </div> </div> </section> <footer id="footer" class="footer"> <!-- <div class="container"> <div class="row"> <div class="col-12"> <pre>Array
+(
+    [0] => Array
+        (
+            [id] => 171
+            [admin_id] => 1
+            [title] => LÀM THẾ NÀO ĐỂ KHÔNG BỊ NHẤN CHÌM TRONG TIN TIÊU CỰC VỀ COVID-19
+            [alias] => lam-the-nao-de-khong-bi-nhan-chim-trong-tin-tieu-cuc-ve-covid-19
+            [hometext] => Trong tình hình dịch bệnh diễn biến phức tạp, chúng ta rất dễ bị nhấn chìm bởi những dòng thông tin tiêu cực trên mạng.
+            [bodyhtml] => <p style="text-align: justify;">&nbsp;</p>
+
+<p style="text-align: justify;"><strong><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Trong tình hình dịch bệnh diễn biến phức tạp, chúng ta rất dễ bị nhấn chìm bởi những dòng thông tin tiêu cực trên mạng.</span></span></strong></p>
+
+<p style="text-align: center;"><strong><img alt="" src="/ckeditor/kcfinder/upload/images/hinh_chinh.jpg" style="width: 650px; height: 366px;" /></strong></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Tin tức là một phần quan trọng của cuộc sống, đặc biệt là trong hoàn cảnh hiện tại. Nhu cầu cập nhật thông tin là thiết yếu để kịp thời ứng phó với những thay đổi trước mắt.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Tuy vậy, việc dành quá nhiều thời gian lướt mạng có thể dẫn đến những cảm xúc tiêu cực. Theo Tổ chức Y tế Thế giới (WHO), tin tức có thể mang lại sự căng thẳng, lo âu. Một nghiên cứu năm 2020 cho biết những thông tin trên mạng xã hội thường dễ gây hoảng loạn.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Đối với những người có bệnh tâm lý, thông tin tiêu cực có thể làm trầm trọng các triệu chứng như rối loạn ăn uống, tự hoại, lo âu hoặc trầm cảm, theo&nbsp;The Conversation.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"><strong>Tin tức và khả năng kích động tâm lý</strong></span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Sự kích động tâm lý xảy ra khi một người gặp phải thông tin gây xúc động mạnh hoặc gợi nhớ sự việc đau thương trong quá khứ.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Biểu hiện của sự kích động bao gồm: suy nghĩ tiêu cực triền miên, nhịp tim tăng, thở dốc. Nếu tình trạng này kéo dài, bạn sẽ gặp hệ quả về mặt thể chất như đau nhức người hay ăn, ngủ thất thường.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Nếu có những dấu hiệu trên khi xem tin tức, bạn có thể thực hiện một số cách sau đây để bình ổn tâm lý.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"></span></span><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"><strong>Tiếp nhận thông tin có chọn lọc</strong></span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Bạn có thể&nbsp;điều chỉnh thời gian đọc tin phù hợp, tránh những lúc mệt mỏi, nhạy cảm hoặc căng thẳng. Đồng thời, bạn nên&nbsp;xác định loại tin khiến mình lo âu, kích động và hạn chế chúng.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Một số nguồn tin có cách viết hoặc nội dung khiến bạn căng thẳng bởi thái độ tiêu cực. Hãy cập nhật tin tức ở những trang phù hợp, tốt nhất là những&nbsp;nguồn chính thống.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Trong đại dịch, WHO khuyến nghị mọi người chỉ nên đọc tin tức Covid-19 từ những trang thông tin chính thức về sức khỏe và cập nhật tình hình hiện tại.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Bạn cũng có thể tập trung vào mặt tích cực bằng cách&nbsp;theo dõi tin tức về số người bệnh đã phục hồi&nbsp;hoặc tìm đến&nbsp;những câu chuyện ấm áp&nbsp;trong mùa dịch.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"></span></span><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"><strong>Kiểm soát cảm xúc</strong></span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Bạn không nên đổ lỗi cho bản thân vì những cảm xúc tiêu cực. Thay vào đó, hãy nhận diện chúng và hiểu rằng bạn có quyền cảm thấy như vậy. Đồng thời, bạn cần nhận thức rằng mình có thể kiểm soát phản ứng của bản thân. Suy nghĩ đó giúp bạn chủ động lựa chọn cách đối phó tích cực.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Khi rơi vào tâm trạng xấu, bạn có thể thử lấy lại cân bằng tâm lý qua việc hít thở sâu, thiền định, cùng các phương pháp giúp đưa tâm trí trở về thực tại thay vì bị cuốn dòng suy nghĩ tiêu cực.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"></span></span><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"><strong>Chăm sóc sức khỏe</strong></span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Đầu tư thời gian vào việc chăm sóc bản thân sẽ giúp bạn phản ứng tích cực hơn trước những tình huống gây căng thẳng.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Bạn nên ăn uống lành mạnh, tập thể dục thường xuyên (nhưng không quá mức) và ngủ đủ giấc. Tương tự, bạn có thể chăm sóc sức khỏe tinh thần bằng cách cân bằng công việc và cuộc sống, thực hành chánh niệm, đồng thời chia sẻ với gia đình, bạn bè.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"></span></span><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"><strong>Tìm kiếm sự trợ giúp</strong></span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Nếu cần được tư vấn, bạn hãy liên hệ tới các tổ chức và chuyên gia tâm lý. Tìm kiếm sự giúp đỡ là hành động tích cực và mạnh mẽ, cho thấy bạn dám đương đầu với vấn đề. Hãy hiểu rằng bạn không cô đơn.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Những cảm xúc tiêu cực là không thể tránh khỏi trong khoảng thời gian đầy biến động này. Dù đã hạn chế xem tin tức và giữ tinh thần tích cực, bạn vẫn có thể cảm thấy choáng ngợp và mệt mỏi. Đó là điều hoàn toàn bình thường.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Quan trọng hơn, bạn cần hiểu rằng một phương pháp không thể áp dụng cho tất cả. Bạn có thể sẽ mất khá lâu để tìm ra cách đối phó phù hợp. Bởi vậy, đừng ngần ngại tìm kiếm sự giúp đỡ khi gặp khó khăn.</span></span></p>
+
+<p style="text-align: right;"><em>Theo Zing News</em></p>
+
+            [inhome] => 1
+            [is_news] => 0
+            [is_featured] => 0
+            [is_new] => 0
+            [keywords] => 
+            [description] => 
+            [title_seo] => 
+            [h1_seo] => 
+            [other_seo] => 
+            [hitstotal] => 108
+            [post_type] => post
+            [status] => publish
+            [enable] => 1
+            [order] => 37
+            [addtime] => 1628730540
+            [edittime] => 1743497204
+            [full_name] => Administrator
+            [cat_alias] => tin-tuc
+            [homeimgfile] => news2.png
+            [homeimgalt] => 
+            [post_cat_id] => 24
+            [categories] => Array
+                (
+                    [id] => 24
+                    [parent] => 0
+                    [name] => Tin tức
+                    [alias] => tin-tuc
+                    [image_fb] => 550297257875-architecture-1868667_1920.jpg
+                    [order] => 1
+                    [status] => 1
+                    [hometext] => 
+                    [inhome] => 1
+                    [viewcat] => page_grid
+                    [type] => NEWS
+                    [author_id] => 1
+                    [description] => 
+                    [keywords] => 
+                    [title_seo] => 
+                    [other_seo] => 
+                    [h1_seo] => 
+                    [description_en] => 
+                    [keywords_en] => 
+                    [title_seo_en] => 
+                    [other_seo_en] => 
+                    [add_time] => 1512791086
+                    [edit_time] => 1619148147
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 172
+            [admin_id] => 1
+            [title] => Nếu một nhân viên Google qua đời, họ sẽ được hưởng quyền lợi gì từ công ty n� y?
+            [alias] => neu-mot-nhan-vien-google-qua-doi-ho-se-duoc-huong-quyen-loi-gi-tu-cong-ty-nay
+            [hometext] => ​Thông thường, các công ty chỉ có chế độ cho nhân viên vẫn còn làm việc, cùng lắm là nghỉ hưu. Tuy nhiên với Google, khi bạn qua đời cũng có thể được hưởng những quyền lợi từ tập đoàn công nghệ hàng đầu thế giới này.
+            [bodyhtml] => <p style="text-align: justify;"><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:16px;"><strong>Thông thường, các công ty chỉ có chế độ cho nhân viên vẫn còn làm việc, cùng lắm là nghỉ hưu. Tuy nhiên với Google, khi bạn qua đời cũng có thể được hưởng những quyền lợi từ tập đoàn công nghệ hàng đầu thế giới này.</strong></span></span></p>
+
+<p style="text-align: justify;"><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:16px;">Nếu đã từng xem bộ phim The Internship, có thể bạn sẽ hình dung ra được công việc tại Google sẽ như thế nào. Với nhiều người, được làm việc tại Google là một trải nghiệm tuyệt vời: công ty công nghệ lớn hàng đầu thế giới, nhân viên được hưởng nhiều lợi ích làm việc; được phục vụ từ đồ ăn, cắt tóc, mát-xa cùng vô số quyền lợi khác.</span></span></p>
+
+<p style="text-align: center;"><img alt="" src="/ckeditor/kcfinder/upload/images/photo-3-1493743835845(1).jpg" style="width: 620px; height: 388px;" /></p>
+
+<p style="text-align: justify;"><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:16px;">Tuy nhiên, cuộc đời rồi cũng có lúc kết thúc, và công việc tại Google cũng vậy. Tuy nhiên, khi bạn qua đời, ông lớn Google cũng vẫn sẽ đem đến cho bạn những quyền lợi mà chắc chắn bạn không tìm thấy ở bất cứ công ty nào. Đây là một phần trong chính sách về quyền lợi khi chết mà Google đưa ra cho nhân viên của mình.&nbsp;</span></span></p>
+
+<p style="text-align: justify;"><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:16px;">Trên toàn cầu, Google có khoảng 70 trụ sở tại 50 quốc gia. Nhân viên già nhất tại Google đã bước qua tuổi 83. Giám đốc nhân sự của công ty, Laszlo Bock cho biết công ty đang bắt đầu nghĩ về những điều có thể làm cho nhân viên khi họ qua đời.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:16px;">"Một trong những điều chúng tôi nhận ra gần đây rằng rồi cuộc đời này cũng sẽ kết thúc. Chúng tôi hiểu rằng đó sẽ là khoảnh khắc rất khó khăn cho những người ở lại. Mỗi khi có một nhân viên qua đời, chúng tôi luôn cố gắng giúp đỡ những người thân của họ".</span></span></p>
+
+<p style="text-align: justify;"><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:16px;">Bock cũng tiết lộ rằng Google đã đưa ra những "quyền lợi khi chết" cho nhiều nhân viên đang làm việc tại Mỹ. Nếu một nhân viên Google qua đời khi vẫn còn làm việc ở công ty, chồng/vợ của họ sẽ nhận được 50% lương của nhân viên qua đời trong suốt 10 năm tới. Điều này cũng không giới hạn thời gian hưởng khoản tiền này.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:16px;">Điều đấy đồng nghĩa với việc khoảng 34,000 nhân viên Google đang làm việc tại Mỹ sẽ được hưởng quyền lợi này. Ngoài ra, con của họ cũng sẽ nhận được 1,000 USD/ tháng cho tới khi các em 19 tuổi (hoặc 23, nếu còn đang đi học).</span></span></p>
+
+<p style="text-align: center;"><img alt="" src="/ckeditor/kcfinder/upload/images/photo-1-1493743835820.jpg" style="width: 620px; height: 464px;" /></p>
+
+<p style="text-align: justify;"><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:16px;">Bock cho biết những quyền lợi này không mang lại nhiều lợi ích cho công ty nhưng đó là một giá trị đạo đức mà công ty muốn duy trì khi Google cảm thấy có trách nhiệm phải giúp đỡ nhân viên nếu thảm kịch xảy ra với cuộc đời họ. Với những lợi ích đưa ra, Google ngày càng chứng tỏ cho mọi người thấy, đây là một môi trường làm việc lý tưởng cho tất cả mọi người trên thế giới.</span></span></p>
+
+<p style="text-align: right;"><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:16px;"><em>Theo Kenh14.vn</em></span></span></p>
+
+            [inhome] => 1
+            [is_news] => 0
+            [is_featured] => 0
+            [is_new] => 0
+            [keywords] => 
+            [description] => 
+            [title_seo] => 
+            [h1_seo] => 
+            [other_seo] => 
+            [hitstotal] => 223
+            [post_type] => post
+            [status] => publish
+            [enable] => 1
+            [order] => 38
+            [addtime] => 1628776582
+            [edittime] => 1743497233
+            [full_name] => Administrator
+            [cat_alias] => tin-tuc
+            [homeimgfile] => news3.png
+            [homeimgalt] => 
+            [post_cat_id] => 24
+            [categories] => Array
+                (
+                    [id] => 24
+                    [parent] => 0
+                    [name] => Tin tức
+                    [alias] => tin-tuc
+                    [image_fb] => 550297257875-architecture-1868667_1920.jpg
+                    [order] => 1
+                    [status] => 1
+                    [hometext] => 
+                    [inhome] => 1
+                    [viewcat] => page_grid
+                    [type] => NEWS
+                    [author_id] => 1
+                    [description] => 
+                    [keywords] => 
+                    [title_seo] => 
+                    [other_seo] => 
+                    [h1_seo] => 
+                    [description_en] => 
+                    [keywords_en] => 
+                    [title_seo_en] => 
+                    [other_seo_en] => 
+                    [add_time] => 1512791086
+                    [edit_time] => 1619148147
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 186
+            [admin_id] => 1
+            [title] => Được bán mang về, phở, bún, bánh mì... tại TP.HCM vẫn khó mở
+            [alias] => duoc-ban-mang-ve-pho-bun-banh-mi-tai-tp-hcm-van-kho-mo
+            [hometext] => Từ hôm qua (8.9), TP.HCM cho phép loại hình kinh doanh dịch vụ ăn, uống (có giấy phép đăng ký hộ kinh doanh) được phép hoạt động từ 6 giờ đến 18 giờ hằng ngày theo hình thức bán hàng mang về.
+            [bodyhtml] => <p style="text-align: justify;"><strong><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Từ hôm qua (8.9), TP.HCM cho phép loại hình&nbsp;kinh doanh&nbsp;dịch vụ ăn, uống (có giấy phép đăng ký hộ kinh doanh) được phép hoạt động từ 6 giờ đến 18 giờ hằng ngày theo hình thức bán hàng mang về.</span></span></strong></p>
+
+<p style="text-align: center;"><strong><img alt="" src="/ckeditor/kcfinder/upload/images/shippergiaohangcaoanbien_ligg.jpg" style="width: 660px; height: 513px;" /></strong></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Theo quy định của UBND TP, các cơ sở&nbsp;kinh doanh&nbsp;hoạt động theo phương thức “3 tại chỗ”, chỉ tổ chức kinh doanh thông qua đặt hàng trực tuyến; người giao hàng là các đơn vị cung ứng dịch vụ giao nhận hàng hóa có ứng dụng công nghệ (shipper) phải đảm bảo các biện pháp an toàn phòng, chống dịch. Trong đó, điều kiện kèm theo là&nbsp;người lao động&nbsp;đã tiêm ngừa ít nhất 1 mũi vắc xin phòng, chống&nbsp;Covid-19&nbsp;và thực hiện xét nghiệm nhanh âm tính với Covid-19 2 ngày/lần theo mẫu đơn hoặc mẫu gộp 3 người theo hướng dẫn của&nbsp;Bộ Y tế.</span></span><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"></span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"><strong>Tô bún bò vỉa hè sẽ lên hơn 100.000 đồng chưa kể phí ship</strong></span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Gần 5 tháng mong mỏi từng ngày được mở cửa trở lại, song, sau khi thành phố cho phép một số hoạt động kinh doanh được mở bán, chị Nga (chủ quán bún bò tại P.Tân Quy, Q.7) vẫn chưa thể bán hàng lại ngay. Theo chị Nga, thứ nhất, do nguồn nguyên liệu bây giờ mua rất khó. Mối lấy hạt nêm, bột ngọt, gia vị bún bò, đường phèn...mà chị thường lấy ở chợ Cầu Muối (Q.1) nghỉ chưa bán lại nên không có hàng. Trong khi đó, với quy định shipper chỉ được giao hàng trong nội quận như hiện nay, nếu chị đặt mua online thì giá cao và phải tốn tiền ship. Thứ 2, nguyên liệu như thịt bò, gân bò...xương heo, giò heo... thường lấy mối ở Chợ Xóm Chiếu Q.4, giờ shipper không được chạy liên quận nên cũng đành "bó tay". Chưa kể các loại rau muống bào, bắp chuối bào, giá và các loại rau thơm rất khó mua, tăng giá gấp 2 gấp 3 lần, trong khi bán mang về ngày cũng chỉ được 20 - 30 % so với bình thường nên chị Nga quyết định chưa mở cửa bán lại.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">"1 ngày phải test Covid 2 lần, e bị viêm xoang mũi dị ứng, mỗi lần chọt vô là nó hành sổ mũi luôn cả ngày. Đã khổ thế rồi mà bán chẳng được lời lãi gì, bán giá cao lên xíu thì người ta bảo mình lợi dụng dịch để chém. Nói tóm lại là em chưa bán được, chờ thêm chút xem sao" - bà chủ quán bún bò chia sẻ.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Tương tự, chị Diễm Châu (TP.Thủ Đức) cũng là người bán thực phẩm, thức ăn nấu sẵn qua mạng, cho rằng quy định các quán ăn bán mang về nhưng lại yêu cầu shipper không được giao hàng liên quận là quá ngặt. Hiện nay, do thiếu shipper nên nếu có người nhận giao thì phí rất đắt, không bán được số lượng nhiều. Chi phí vận chuyển tăng cao, giá thực phẩm đội lên cao ngất đẩy giá bán cũng vọt lên.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">"Chẳng hạn, hành lá hiện nay bán 80.000 - 100.000 đồng/kg, tăng hơn 3 - 4 lần trước khi giãn cách. Vậy nên nếu trước đây 1 tô bún bò giá từ 35.000 - 60.000 đồng, nay chắc 1 tô phải từ 70.000 - 120.000 đồng, chưa bao gồm phí ship, thì ai dám bán? Bởi người mua được giá này chắc hiếm lắm nên thôi, nghỉ cho khỏe" - chị Châu nói.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Trong khi đó, nhiều bà chủ quán cơm tấm, phở, hủ tiếu tại Quận 4, Quận 7 cho biết cũng chưa thể mở lại bán hàng vì không có chỗ ăn, ngủ cho người làm để đáp ứng được yêu cầu "3 tại chỗ".</span></span><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"></span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;"><strong>Cần nới lỏng hoạt động của shipper</strong></span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">TS Lương Hoài Nam, thành viên Hội đồng tư vấn giao thông đô thị TP.HCM nhận định đây là giai đoạn đầu tiên thí điểm mở cửa, thành phố cần có những bước đi thận trọng. Trong bối cảnh hiện nay, khi tỷ lệ bao phủ đầy đủ 2 mũi vắc xin còn chưa đạt như mong muốn, việc đảm bảo nguyên tắc kiểm soát theo địa chỉ cố định là điều cần thiết. Bên cạnh đó, do còn nhiều lo ngại về việc di chuyển không an toàn, điều kiện yêu cầu các cơ sở kinh doanh hoạt động theo phương thức “3 tại chỗ” hoặc kiểm soát quãng đường di chuyển thông qua các ứng dụng&nbsp;công nghệ&nbsp;là sự cẩn trọng cần có.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Với quy định này, các nhà hàng, quán cà phê số lượng người lao động ít không quá khó khăn để đáp ứng. Những người bán hàng rong, hộ kinh doanh cá thể không đáp ứng được yêu cầu sẽ “chờ một nhịp”, mở lại sau khi tỉ lệ bao phủ vắc xin đã đạt ở mức an toàn, không cần kiểm soát theo địa chỉ nữa. Với tốc độ tiêm vắc xin nhanh như hiện nay, ông Nam dự báo các yêu cầu về “3 tại chỗ” cũng sẽ sớm được tháo bỏ.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Tuy nhiên, đối với các hoạt động liên quan đến đội ngũ shipper công nghệ, TS Lương Hoài Nam cho rằng cần quan tâm, tạo điều kiện hơn nữa để mở rộng hoạt động của họ. Nhu cầu đặt hàng, mua đồ của người dân không thể chỉ bó hẹp trong phạm vi 1 quận, huyện. Khách hàng đặt hàng qua app rất khó tính được nơi nào có hàng, nằm ở quận nào… Do đó, không nên giới hạn địa bàn hoạt động của shipper.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">“Tỷ lệ tiêm vắc xin của shipper khá cao, những người được phép hoạt động đều đã được kiểm soát chặt thông tin từ doanh nghiệp, Bộ Công thương. Cần cơ chế thông thoáng cho hoạt động giao - nhận hàng hóa để thuận tiện cho người dân và những cơ sở kinh doanh bắt đầu được mở lại” - ông Nam đề xuất.</span></span></p>
+
+<p style="text-align: right;"><em><span style="font-size:16px;"><span style="font-family:tahoma,geneva,sans-serif;">Theo Thanh Niên</span></span></em></p>
+
+            [inhome] => 1
+            [is_news] => 0
+            [is_featured] => 0
+            [is_new] => 0
+            [keywords] => 
+            [description] => 
+            [title_seo] => 
+            [h1_seo] => 
+            [other_seo] => 
+            [hitstotal] => 183
+            [post_type] => post
+            [status] => publish
+            [enable] => 1
+            [order] => 50
+            [addtime] => 1631161769
+            [edittime] => 1743497262
+            [full_name] => Administrator
+            [cat_alias] => tin-tuc
+            [homeimgfile] => news4.png
+            [homeimgalt] => 
+            [post_cat_id] => 24
+            [categories] => Array
+                (
+                    [id] => 24
+                    [parent] => 0
+                    [name] => Tin tức
+                    [alias] => tin-tuc
+                    [image_fb] => 550297257875-architecture-1868667_1920.jpg
+                    [order] => 1
+                    [status] => 1
+                    [hometext] => 
+                    [inhome] => 1
+                    [viewcat] => page_grid
+                    [type] => NEWS
+                    [author_id] => 1
+                    [description] => 
+                    [keywords] => 
+                    [title_seo] => 
+                    [other_seo] => 
+                    [h1_seo] => 
+                    [description_en] => 
+                    [keywords_en] => 
+                    [title_seo_en] => 
+                    [other_seo_en] => 
+                    [add_time] => 1512791086
+                    [edit_time] => 1619148147
+                )
+
+        )
+
+)
+</pre> </div> </div> </div> --> <div class="footer-newsletter"> <div class="container"> <div class="row justify-content-center text-center"> <div class="col-lg-6"> <h4>Liên hệ với chúng tôi</h4> <p>Tổ chức các giải đấu thể thao uy tín, chuyên nghiệp v� sáng tạo để phù hợp với đơn vị của bạn</p> <form action="https://bootstrapmade.com/content/demo/FlexStart/forms/newsletter.php" method="post" class="php-email-form"> <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Đăng ký"></div> <div class="loading">Loading</div> <div class="error-message"></div> <div class="sent-message">Your subscription request has been sent. Thank you!</div> </form> </div> </div> </div> </div> <div class="container footer-top"> <div class="row gy-4"> <div class="col-lg-4 col-md-6 footer-about"> <a href="#" class="d-flex align-items-center"> <span class="sitename">Sportzone</span> </a> <div class="footer-contact pt-3"> <p><span class="fa fa-building " style="color:#012970;"></span>&nbsp;102A Huỳnh Văn Bánh, Quận Phú Nhuận, TP.HCM.</p> <p><span class="fa fa-phone " style="color:#012970;"></span>&nbsp;0932828993&nbsp;</p> <p><span style="font-family: &quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; font-size: 15px; white-space: pre-wrap;"></span><span class="fa fa-envelope " style="color:#012970;"></span>&nbsp;nhatkienvan@gmail.com&nbsp;</p> <p><span class="fa fa-globe " style="color:#012970;"></span>&nbsp;<a href="https://nhatkienvan.com/">www.nhatkienvan.com</a>&nbsp;</p> </div> </div> <div class="col-lg-2 col-md-3 footer-links"> <h4>Danh mục</h4> <ul> <li><i class="bi bi-chevron-right"></i> <a href="#">Nhất kiến Văn</a></li> <li><i class="bi bi-chevron-right"></i> <a href="#">Giới thiệu</a></li> <li><i class="bi bi-chevron-right"></i> <a href="#">Thỏa thuận</a></li> <li><i class="bi bi-chevron-right"></i> <a href="#">Liên hệ</a></li> </ul> </div> <div class="col-lg-2 col-md-3 footer-links"> <h4>Dịch vụ</h4> <ul> <li><i class="bi bi-chevron-right"></i> <a href="#">Tư vấn giải pháp tổ chức sự kiện thể thao</a></li> <li><i class="bi bi-chevron-right"></i> <a href="#">Thiết kế bộ nhận diện sự kiện thể thao</a></li> <li><i class="bi bi-chevron-right"></i> <a href="#">Sự kiện thể thao cộng đồng</a></li> <li><i class="bi bi-chevron-right"></i> <a href="#">Sự kiện thể thao thiện nguyện</a></li> </ul> </div> <div class="col-lg-4 col-md-12"> <h4>Follow Us</h4> <div class="social-links d-flex"> <a href="#"><i class="bi bi-twitter-x"></i></a> <a href="#"><i class="bi bi-facebook"></i></a> <a href="#"><i class="bi bi-instagram"></i></a> <a href="#"><i class="bi bi-linkedin"></i></a> </div> </div> </div> </div> <div class="container copyright text-center mt-4"> <p>© <span>Copyright</span> <strong class="px-1 sitename">Sports Zone</strong> <span>All Rights Reserved</span> </p> <div class="credits"> <!-- All the links in the footer should remain intact. --> <!-- You can delete the links only if you've purchased the pro version. --> <!-- Licensing information: https://bootstrapmade.com/license/ --> <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] --> Designed by <a href="#">Nhất Kiến Văn Company</a> </div> </div> </footer> <script type="text/javascript">
+        base_url = 'https://localhost/nhatkienvan/';
+    </script> <!-- Scroll Top --> <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> <!-- Vendor JS Files --> <script data-cfasync="false"
+        src="https://bootstrapmade.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> <script src="https://bootstrapmade.com/content/vendors/bootstrap/js/bootstrap.bundle.min.js"></script> <script src="https://bootstrapmade.com/content/vendors/php-email-form/validate.js"></script> <script src="https://bootstrapmade.com/content/vendors/aos/aos.js"></script> <script src="https://bootstrapmade.com/content/vendors/glightbox/js/glightbox.min.js"></script> <script src="https://bootstrapmade.com/content/vendors/purecounter/purecounter_vanilla.js"></script> <script src="https://bootstrapmade.com/content/vendors/imagesloaded/imagesloaded.pkgd.min.js"></script> <script src="https://bootstrapmade.com/content/vendors/isotope-layout/isotope.pkgd.min.js"></script> <script src="https://bootstrapmade.com/content/vendors/swiper/swiper-bundle.min.js"></script> <!-- Main JS File --> <script src="https://bootstrapmade.com/content/demo/FlexStart/assets/js/main.js"></script> <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+        data-cf-beacon='{"rayId":"918f6fdd7e0001f2","version":"2025.1.0","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"68c5ca450bae485a842ff76066d69420","b":1}'
+        crossorigin="anonymous"></script> <script type="text/javascript">
+        $(document).ready(function() {
+            if ($(window).width() < 768) {
+                $('img').each(function() {
+                    $(this).removeAttr('style');
+                });
+            }
+        });
+    </script> <script>
+        AOS.init();
+    </script> </body> </html>
