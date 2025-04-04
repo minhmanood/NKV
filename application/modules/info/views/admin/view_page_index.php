@@ -82,7 +82,7 @@
                                             <td class="text-center"><?php echo display_label(display_value_array($this->config->item('info_modules'), $row['post_type']), 'info'); ?></td>
                                             <td class="text-center"><?php echo display_date($row['modified'] > 0 ? $row['modified'] : $row['created']); ?></td>
                                             <td class="text-center">
-                                                <input type="checkbox" name="status[]" class="change-status flat-blue" value="<?php echo $row['id']; ?>"<?php echo ($row['status'] == 1) ? ' checked="checked"' : ''; ?> />
+                                                <input type="checkbox" name="status[]" class="change-status flat-blue" value="<?php echo $row['id']; ?>" <?php echo ($row['status'] == 1) ? ' checked="checked"' : ''; ?> />
                                             </td>
                                             <td class="text-center">
                                                 <em class="fa fa-edit fa-lg">&nbsp;</em> <a href="<?php echo get_admin_url($module_slug . '/content/' . $row['id']); ?>">Sửa</a>

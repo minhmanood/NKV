@@ -99,6 +99,9 @@ class Layout extends MX_Controller
         $this->_data['menu_main_data'] = modules::run('menu/get_data', $main);
         $this->_data['menu_main_input'] = modules::run('menu/get_input', $main);
 
+        $this->_data['menu_in_footer'] = array();
+        $menu_in_footer = modules::run('menu/gets', 'Main', 0);
+        $this->_data['menu_in_footer'] = is_array($menu_in_footer) ? $menu_in_footer : array();
         // $bottom = 'Bottom';
         // $this->_data['menu_bottom_list'] = modules::run('menu/get_menu_list', $bottom);
         // $this->_data['menu_bottom_data'] = modules::run('menu/get_data', $bottom);
@@ -293,12 +296,19 @@ class Layout extends MX_Controller
                 if (is_array($data_menu_main_1) && !empty($data_menu_main_1)) {
                     $is_second = TRUE;
                 }
-                $html_menu_main .= "<li" . ($is_second ? ' class="dropdown "' : '') . "><a" . ($value['lurl'] == current_url() ? '' :  ' class="active"') . " href=\"" . $value['lurl'] . "\">" . $value['lname']  . ($is_second ? ' <i class="bi bi-chevron-down"></i>' : '') . "</a>";
+                $html_menu_main .= "<li" . ($is_second ? ' class="dropdown"' : '') . "><a" . ($value['lurl'] == current_url() ? '' : ' class="active"') . " href=\"" . $value['lurl'] . "\">" . $value['lname'] . ($is_second ? '<i class="bi bi-chevron-down toggle-dropdown"></i>' : '') . "</a>";
                 if ($is_second) {
-                    $html_menu_main .= '<ul class="toggle-dropdown">';
+                    $html_menu_main .= '<ul>';
+                    $array_menu_services = array();
                     foreach ($data_menu_main_1 as $key1 => $value1) {
+                        $array_menu_services[$key1] = array(
+                            'lname' => $value1['lname'],
+                            'lurl' => $value1['lurl']
+                        );
+
                         $html_menu_main .= '<li><a href="' . $value1['lurl'] . '" class="active">' . $value1['lname'] . '</a></li>';
                     }
+                    $this->_data['array_menu_services'] = $array_menu_services;
                     $html_menu_main .= '</ul>';
                 }
                 $html_menu_main .= "</li>";
@@ -444,6 +454,7 @@ class Layout extends MX_Controller
         $projects_comingup = modules::run('projects/gets', array('inhome' => 1));
         $this->_data['projects_comingup'] = $projects_comingup;
 
+       
         //projects_has_been_constructed
         $projects_has_been_constructed = modules::run('projects/gets', array('inhome' => 1));
         $partial = array();

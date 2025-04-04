@@ -3,20 +3,28 @@ if (!defined('BASEPATH')) {
     exit('No direct script access allowed');
 }
 include_once APPPATH . '/modules/layout/controllers/Layout.php';
-class Info extends Layout {
+class Info extends Layout
+{
 
     private $_module_slug = 'info';
     private $_path = 'uploads/info/';
 
-    function __construct() {
+    function __construct()
+    {
         parent::__construct();
         $this->load->library('form_validation');
         $this->load->model('info/m_info', 'M_info');
         $this->_data['module_slug'] = $this->_module_slug;
         $this->_data['breadcrumbs_module_name'] = 'Thông Tin';
+
+        //tạo uploads/info nếu chưa có
+        if (!is_dir($this->_path)) {
+            mkdir($this->_path, 0777, true);
+        }
     }
 
-    function admin_ajax_change_status() {
+    function admin_ajax_change_status()
+    {
         $post = $this->input->post();
         if (!empty($post)) {
             $value = $this->input->post('value');
@@ -43,7 +51,8 @@ class Info extends Layout {
         }
     }
 
-    function default_args() {
+    function default_args()
+    {
         $order_by = array(
             'post_type' => 'ASC',
             'order' => 'ASC'
@@ -54,47 +63,52 @@ class Info extends Layout {
         return $args;
     }
 
-    function counts($options = array()) {
+    function counts($options = array())
+    {
         $default_args = $this->default_args();
 
-        if(is_array($options) && !empty($options)){
+        if (is_array($options) && !empty($options)) {
             $args = array_merge($default_args, $options);
-        }else{
+        } else {
             $args = $default_args;
         }
 
         return $this->M_info->counts($args);
     }
 
-    function get($id = 0) {
+    function get($id = 0)
+    {
         return $this->M_info->get($id);
     }
 
-    function gets($options = array()) {
+    function gets($options = array())
+    {
         $default_args = $this->default_args();
 
-        if(is_array($options) && !empty($options)){
+        if (is_array($options) && !empty($options)) {
             $args = array_merge($default_args, $options);
-        }else{
+        } else {
             $args = $default_args;
         }
 
         return $this->M_info->gets($args);
     }
 
-    function get_by($options = array()) {
+    function get_by($options = array())
+    {
         $default_args = $this->default_args();
 
-        if(is_array($options) && !empty($options)){
+        if (is_array($options) && !empty($options)) {
             $args = array_merge($default_args, $options);
-        }else{
+        } else {
             $args = $default_args;
         }
 
         return $this->M_info->get_by($args);
     }
 
-    function get_max_order($post_type = 'all') {
+    function get_max_order($post_type = 'all')
+    {
         $args = $this->default_args();
         $order_by = array(
             'order' => 'DESC'
@@ -106,7 +120,8 @@ class Info extends Layout {
         return isset($rows[0]['order']) ? $rows[0]['order'] : 0;
     }
 
-    function re_order($post_type = 'all') {
+    function re_order($post_type = 'all')
+    {
         $args = $this->default_args();
         $order_by = array(
             'order' => 'ASC',
@@ -126,11 +141,13 @@ class Info extends Layout {
         }
     }
 
-    function get_by_type($post_type = 'all', $single = false) {
+    function get_by_type($post_type = 'all', $single = false)
+    {
         return $this->M_info->get_by_type($post_type, $single);
     }
 
-    function admin_index() {
+    function admin_index()
+    {
         $this->_initialize_admin();
         $this->redirect_admin();
 
@@ -216,7 +233,8 @@ class Info extends Layout {
         $this->load->view('layout/admin/view_layout', $this->_data);
     }
 
-    function admin_content() {
+    function admin_content()
+    {
         $this->_initialize_admin();
         $this->redirect_admin();
 
@@ -307,13 +325,89 @@ class Info extends Layout {
         $this->load->view('layout/admin/view_layout', $this->_data);
     }
 
-    function admin_add() {
+    function admin_content1()
+    {
         $post_type = $this->input->post('post_type');
+        $attributes = $this->input->post('attributes');
+
+        foreach ($_FILES['attributes']['name']['image'] as $key => $value) {
+            if (trim($value) == '') {
+                $attributes['image'][$key] = $this->input->post('images')[$key];
+            } else {
+                $attributes['image'][$key] = $value;
+            }
+        }
+
         $data = array(
             'title' => $this->input->post('title'),
             'content' => $this->input->post('content'),
             'link' => $this->input->post('link'),
             'attributes' => serialize($this->parse_attributes($this->input->post('attributes'))),
+            'post_type' => $post_type,
+            'order' => $this->get_max_order($post_type) + 1,
+            'status' => $this->input->post('status') ? 1 : 0,
+            'created' => time(),
+            'modified' => 0,
+            'attributes_1' => $attributes,
+            'attributes_image' => $_FILES['attributes']
+        );
+
+        $this->_data['data'] = $data;
+        $this->load->view('layout/site/partial/view_test', $this->_data);
+    }
+
+    function admin_add()
+    {
+        $post_type = $this->input->post('post_type');
+
+        $attributes = $this->input->post('attributes');
+        $attributes_image = $_FILES['attributes'];
+
+        $uploaded_images = [];
+        if (!empty($attributes_image['name']['image'])) {
+            foreach ($attributes_image['name']['image'] as $key => $image_name) {
+                if ($attributes_image['error']['image'][$key] == 0) {
+                    $allowed_types = ['image/jpeg', 'image/png', 'image/gif'];
+                    $file_type = $attributes_image['type']['image'][$key];
+
+                    if (in_array($file_type, $allowed_types)) {
+                        $new_file_name = $image_name;
+                        $destination = $this->_path . $new_file_name;
+
+                        // kiểm tra file, tồn tại thì thêm đuôi
+                        $file_ext = pathinfo($image_name, PATHINFO_EXTENSION);
+                        $file_name_without_ext = pathinfo($image_name, PATHINFO_FILENAME);
+                        $counter = 1;
+                        while (file_exists($destination)) {
+                            $new_file_name = $file_name_without_ext . '_' . $counter . '.' . $file_ext;
+                            $destination = $this->_path . $new_file_name;
+                            $counter++;
+                        }
+
+                        if (move_uploaded_file($attributes_image['tmp_name']['image'][$key], $destination)) {
+                            $uploaded_images[$key] = $new_file_name;
+                        } else {
+                            $uploaded_images[$key] = '';
+                        }
+                    } else {
+                        $uploaded_images[$key] = '';
+                    }
+                } else {
+                    $uploaded_images[$key] = '';
+                }
+            }
+        }
+
+        $parsed_attributes = $this->parse_attributes($attributes);
+        foreach ($parsed_attributes as $key => &$attr) {
+            $attr['image'] = isset($uploaded_images[$key]) ? $uploaded_images[$key] : '';
+        }
+
+        $data = array(
+            'title' => $this->input->post('title'),
+            'content' => $this->input->post('content'),
+            'link' => $this->input->post('link'),
+            'attributes' => serialize($parsed_attributes),
             'post_type' => $post_type,
             'order' => $this->get_max_order($post_type) + 1,
             'status' => $this->input->post('status') ? 1 : 0,
@@ -324,23 +418,75 @@ class Info extends Layout {
         return $this->M_info->add($data);
     }
 
-    function admin_update($id) {
+    function admin_update($id)
+    {
         $post_type = $this->input->post('post_type');
         $data_current = $this->get($id);
         $post_type_current = $data_current['post_type'];
+
+        $attributes = $this->input->post('attributes');
+        $attributes_image = $_FILES['attributes'];
+        $images_old = $this->input->post('images');
+
+        $uploaded_images = [];
+        if (!empty($attributes_image['name']['image'])) {
+            foreach ($attributes_image['name']['image'] as $key => $image_name) {
+                if ($attributes_image['error']['image'][$key] == 0 && !empty($image_name)) { // Có file mới
+                    $allowed_types = ['image/jpeg', 'image/png', 'image/gif'];
+                    $file_type = $attributes_image['type']['image'][$key];
+
+                    if (in_array($file_type, $allowed_types)) {
+                        $new_file_name = $image_name;
+                        $destination = $this->_path . $new_file_name;
+
+                        // kiểm tra file, tồn tại thì thêm đuôi
+                        $file_ext = pathinfo($image_name, PATHINFO_EXTENSION);
+                        $file_name_without_ext = pathinfo($image_name, PATHINFO_FILENAME);
+                        $counter = 1;
+                        while (file_exists($destination)) {
+                            $new_file_name = $file_name_without_ext . '_' . $counter . '.' . $file_ext;
+                            $destination = $this->_path . $new_file_name;
+                            $counter++;
+                        }
+
+                        if (move_uploaded_file($attributes_image['tmp_name']['image'][$key], $destination)) {
+                            //xóa file cũ 
+                            if (isset($images_old[$key]) && !empty($images_old[$key])) {
+                                $old_file_path = $this->_path . $images_old[$key];
+                                if (file_exists($old_file_path)) {
+                                    unlink($old_file_path);
+                                }
+                            }
+                            $uploaded_images[$key] = $new_file_name;
+                        } else {
+                            $uploaded_images[$key] = isset($images_old[$key]) ? $images_old[$key] : '';
+                        }
+                    } else {
+                        $uploaded_images[$key] = isset($images_old[$key]) ? $images_old[$key] : '';
+                    }
+                } else {
+                    $uploaded_images[$key] = isset($images_old[$key]) ? $images_old[$key] : '';
+                }
+            }
+        }
+
+        $parsed_attributes = $this->parse_attributes($attributes);
+        foreach ($parsed_attributes as $key => &$attr) {
+            $attr['image'] = isset($uploaded_images[$key]) ? $uploaded_images[$key] : '';
+        }
 
         $data = array(
             'title' => $this->input->post('title'),
             'content' => $this->input->post('content'),
             'link' => $this->input->post('link'),
-            'attributes' => serialize($this->parse_attributes($this->input->post('attributes'))),
+            'attributes' => serialize($parsed_attributes),
             'post_type' => $post_type,
             'status' => $this->input->post('status') ? 1 : 0,
             'modified' => time()
         );
 
         if ($post_type != $post_type_current) {
-            $data['order'] = $this->get_max_order($post_type, $position) + 1; //gia tri sap xep lon nhat cua menu mới
+            $data['order'] = $this->get_max_order($post_type) + 1;
         }
 
         if ($this->M_info->update($id, $data)) {
@@ -366,7 +512,8 @@ class Info extends Layout {
         }
     }
 
-    function admin_delete() {
+    function admin_delete()
+    {
         $this->_initialize_admin();
         $this->redirect_admin();
 
@@ -375,14 +522,30 @@ class Info extends Layout {
         $id = $this->input->get('id');
         if ($id != 0) {
             $row = $this->get($id);
-            if ($this->M_info->delete($id)) {
-                $this->re_order($row['post_type']);
+            if ($row) {
+                $attributes = unserialize($row['attributes']);
+                if (is_array($attributes)) {
+                    foreach ($attributes as $attr) {
+                        if (isset($attr['image']) && !empty($attr['image'])) {
+                            $file_path = $this->_path . $attr['image'];
+                            if (file_exists($file_path)) {
+                                unlink($file_path);
+                            }
+                        }
+                    }
+                }
 
-                $notify_type = 'success';
-                $notify_content = $this->_message_success;
+                if ($this->M_info->delete($id)) {
+                    $this->re_order($row['post_type']);
+                    $notify_type = 'success';
+                    $notify_content = $this->_message_success;
+                } else {
+                    $notify_type = 'danger';
+                    $notify_content = $this->_message_danger;
+                }
             } else {
-                $notify_type = 'danger';
-                $notify_content = $this->_message_danger;
+                $notify_type = 'warning';
+                $notify_content = $this->_message_warning;
             }
         } else {
             $notify_type = 'warning';
@@ -392,7 +555,8 @@ class Info extends Layout {
         redirect(get_admin_url($this->_module_slug));
     }
 
-    function admin_main() {
+    function admin_main()
+    {
         $this->_initialize_admin();
         $this->redirect_admin();
         $post = $this->input->post();
@@ -432,13 +596,27 @@ class Info extends Layout {
                 if (is_array($ids) && !empty($ids)) {
                     foreach ($ids as $id) {
                         $row = $this->get($id);
-                        if (!empty($row) && $this->M_info->delete($id)) {
-                            $this->re_order($row['post_type']);
-                            $notify_type = 'success';
-                            $notify_content = $this->_message_success;
-                        } else {
-                            $notify_type = 'danger';
-                            $notify_content = $this->_message_danger;
+                        if (!empty($row)) {
+                            $attributes = unserialize($row['attributes']);
+                            if (is_array($attributes)) {
+                                foreach ($attributes as $attr) {
+                                    if (isset($attr['image']) && !empty($attr['image'])) {
+                                        $file_path = $this->_path . $attr['image'];
+                                        if (file_exists($file_path)) {
+                                            unlink($file_path);
+                                        }
+                                    }
+                                }
+                            }
+
+                            if ($this->M_info->delete($id)) {
+                                $this->re_order($row['post_type']);
+                                $notify_type = 'success';
+                                $notify_content = $this->_message_success;
+                            } else {
+                                $notify_type = 'danger';
+                                $notify_content = $this->_message_danger;
+                            }
                         }
                     }
                 } else {
@@ -455,7 +633,8 @@ class Info extends Layout {
         }
     }
 
-    public function parse_attributes($attributes) {
+    public function parse_attributes($attributes)
+    {
         $data = array();
         $bool_label = isset($attributes['label']) && is_array($attributes['label']);
         $bool_content = isset($attributes['content']) && is_array($attributes['content']);
@@ -468,17 +647,19 @@ class Info extends Layout {
             for ($i = 0; $i < $count; $i++) {
                 $data[] = array(
                     'label' => $label[$i],
-                    'content' => $content[$i]
+                    'content' => $content[$i],
+                    'image' => isset($attributes['image'][$i]) ? $attributes['image'][$i] : ''
                 );
             }
         }
         return $data;
     }
 
-    public function admin_get_attribute_ajax() {
+    public function admin_get_attribute_ajax()
+    {
         $attribute = $this->input->post('attribute');
         $this->load->view('info/admin/view_attribute', array('attribute' => $attribute));
     }
-}
+}   
 /* End of file info.php */
 /* Location: ./application/modules/info/controllers/info.php */

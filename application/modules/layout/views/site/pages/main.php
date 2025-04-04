@@ -244,65 +244,26 @@
         <div class="container">
 
             <div class="row gy-4 align-items-center features-item">
-                <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-                    <img src="./assets/images/kh1.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-                    <h3>Lập kế hoạch tổ chức (PLAN)</h3>
-
-                    <ul>
-                        <li><span> Xác định rõ mục tiêu của sự kiện: Bạn muốn đạt được điều gì?</span></li>
-                        <li> <span>Xác định phạm vi của sự kiện: Đối tượng tham gia là ai.</span></li>
-                        <li><span>Lập kế hoạch chi tiết: bao gồm lịch trình, địa điểm, ngân sách</span></li>
-                    </ul>
-                </div>
+                <?php if (isset($info_why_choose_us_none) && !empty($info_why_choose_us_none)): ?>
+                    <?php $attributes = unserialize($info_why_choose_us_none['attributes']); ?>
+                    <?php foreach ($attributes as $key => $attribute): ?>
+                        <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+                            <?php if (!empty($attribute['image'])): ?>
+                                <img src="<?= base_url('uploads/info/' . $attribute['image']) ?>"
+                                    alt="<?= html_escape($attribute['label']) ?>"
+                                    class="img-thumbnail"
+                                    style="max-width: 100%">
+                            <?php endif; ?>
+                        </div>
+                        <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+                            <h3><?= html_escape($attribute['label']) ?></h3>
+                            <p class="mini-mt gray8 font-15"><?= $attribute['content'] ?></p>
+                        </div>
+                    <?php endforeach; ?>
+                <?php endif; ?>
             </div><!-- Features Item -->
 
-            <div class="row gy-4 align-items-center features-item">
-                <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="./assets/images/kh2.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3>Điều phối nhân sự và triển khai vận hành (DO)</h3>
-                    <ul>
-                        <li><span> Triển khai công việc theo kế hoạch</span></li>
-                        <li> <span>Phân bổ nguồn lực hợp lý</span></li>
 
-                    </ul>
-                </div>
-            </div><!-- Features Item -->
-
-            <div class="row gy-4 align-items-center features-item">
-                <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-                    <img src="./assets/images/kh3.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-md-7" data-aos="fade-up">
-                    <h3>Truyền thông sự kiện</h3>
-
-                    <ul>
-                        <li><span>Xây dựng và thực hiện chiến lược truyền thông</span></li>
-                        <li><span> Xây dựng và thực hiện chiến lược truyền thông</span></li>
-
-                    </ul>
-                </div>
-            </div><!-- Features Item -->
-
-            <div class="row gy-4 align-items-center features-item">
-                <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
-                    <img src="./assets/images/kh4.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-                    <h3>Hậu sự kiện và đánh giá</h3>
-
-                    <ul>
-                        <li><span>Hậu sự kiện: Sau khi kết thúc sự kiện, chúng tôi tiếp tục hỗ trợ về các hạng mục bàn
-                                giao.</span></li>
-                        <li><span> Hậu sự kiện: Sau khi kết thúc sự kiện, chúng tôi tiếp tục hỗ trợ về các hạng mục bàn
-                                giao.</span></li>
-
-                    </ul>
-                </div>
-            </div><!-- Features Item -->
 
         </div>
 
@@ -367,7 +328,9 @@
                                     <p>
                                         <?php echo $testimonial_content; ?>
                                     </p>
+
                                     <div class="profile mt-auto">
+                                        <img src="<?php echo get_media('images', $slideshow_none[2]['image'], 'no-avatar.jpg') ?>" class="img-fluid animated" alt="">
                                         <h3><?php echo $testimonial['title']; ?></h3>
                                         <h4><?php echo $location; ?></h4>
                                     </div>
@@ -453,7 +416,8 @@
                     <div class="swiper-slide"><img
                             src="<?php echo get_media('images', $partner_none[5]['image'], 'no-image.png') ?>" class="img-fluid animated" alt="">
                     </div>
-                    <div class="swiper-slide"><imgpartner_none
+                    <div class="swiper-slide">
+                        <imgpartner_none
                             src="<?php echo get_media('images', $partner_none[6]['image'], 'no-image.png') ?>" class="img-fluid animated" alt="">
                     </div>
                     <div class="swiper-slide"><img

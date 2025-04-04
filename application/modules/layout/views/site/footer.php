@@ -1,15 +1,15 @@
  <footer id="footer" class="footer">
-     <div class="container">
+     <!-- <div class="container">
          <div class="row">
              <div class="col-12">
                  <?php
                     echo "<pre>";
-                    print_r($info_why_choose_us_none = modules::run('info/get_by_type', 'why_choose_us', TRUE));
+                    print_r($html_menu_main);
                     echo "</pre>";
                     ?>
              </div>
          </div>
-     </div>
+     </div> -->
 
      <div class="footer-newsletter">
          <div class="container">
@@ -40,23 +40,32 @@
                  </div>
              </div>
 
-             <div class="col-lg-2 col-md-3 footer-links">
+             <div class="col-lg-2 col-md-3 footer-links  ">
                  <h4>Danh mục</h4>
                  <ul>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Nhất kiến Văn</a></li>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Giới thiệu</a></li>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Thỏa thuận</a></li>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Liên hệ</a></li>
+                     <ul>
+                         <?php foreach ($menu_in_footer as $value) : ?>
+                             <li>
+                                 <i class="bi bi-chevron-right "></i><a href="<?php echo $value['lurl'] ?>"><?php echo $value['lname'] ?></a>
+                             </li>
+                         <?php endforeach ?>
+                     </ul>
                  </ul>
              </div>
 
              <div class="col-lg-2 col-md-3 footer-links">
                  <h4>Dịch vụ</h4>
                  <ul>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Tư vấn giải pháp tổ chức sự kiện thể thao</a></li>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Thiết kế bộ nhận diện sự kiện thể thao</a></li>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Sự kiện thể thao cộng đồng</a></li>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Sự kiện thể thao thiện nguyện</a></li>
+                     <?php if (isset($array_menu_services) && !empty($array_menu_services)): ?>
+                         <?php foreach ($array_menu_services as $service): ?>
+                             <li>
+                                 <i class="bi bi-chevron-right"></i>
+                                 <a href="<?php echo $service['lurl'] ?>">
+                                     <?php echo $service['lname'] ?>
+                                 </a>
+                             </li>
+                         <?php endforeach ?>
+                     <?php endif ?>
                  </ul>
              </div>
 
@@ -64,10 +73,10 @@
                  <h4>Follow Us</h4>
 
                  <div class="social-links d-flex">
-                     <a href="#"><i class="bi bi-twitter-x"></i></a>
-                     <a href="#"><i class="bi bi-facebook"></i></a>
-                     <a href="#"><i class="bi bi-instagram"></i></a>
-                     <a href="#"><i class="bi bi-linkedin"></i></a>
+                     <a href="<?php echo $twitter_page ?>"><i class="bi bi-twitter-x"></i></a>
+                     <a href="<?php echo $facebook_fanpage ?>"><i class="bi bi-facebook"></i></a>
+                     <a href="<?php echo $instagram_page ?>"><i class="bi bi-instagram"></i></a>
+                     <a href="<?php echo $linkedin_page ?>"><i class="bi bi-linkedin"></i></a>
                  </div>
              </div>
 

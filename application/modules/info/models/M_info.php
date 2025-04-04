@@ -2,15 +2,18 @@
 if (!defined('BASEPATH')) {
     exit('No direct script access allowed');
 }
-class M_info extends CI_Model {
+class M_info extends CI_Model
+{
 
     public $_table_name = 'info';
 
-    public function __construst() {
-        parent::__construst();
+    public function __construct()
+    {
+        parent::__construct();
     }
 
-    private function generate_where($args) {
+    private function generate_where($args)
+    {
         if (isset($args['q'])) {
             $this->db->group_start();
             $this->db->like($this->_table_name . ".title", $args['q']);
@@ -29,7 +32,8 @@ class M_info extends CI_Model {
         }
     }
 
-    private function generate_order_by($args) {
+    private function generate_order_by($args)
+    {
         $allow_sort = array("DESC", "ASC");
 
         if (isset($args['order_by']) && is_array($args['order_by']) && !empty($args['order_by'])) {
@@ -40,7 +44,8 @@ class M_info extends CI_Model {
         }
     }
 
-    public function gets($args, $perpage = 5, $offset = -1) {
+    public function gets($args, $perpage = 5, $offset = -1)
+    {
         $this->db->select();
         $this->db->from($this->_table_name);
 
@@ -54,7 +59,8 @@ class M_info extends CI_Model {
         return $query->result_array();
     }
 
-    public function counts($args) {
+    public function counts($args)
+    {
         $this->db->select();
         $this->db->from($this->_table_name);
 
@@ -65,7 +71,8 @@ class M_info extends CI_Model {
         return $query->num_rows();
     }
 
-    public function get($id) {
+    public function get($id)
+    {
         $this->db->select();
         $this->db->from($this->_table_name);
         $this->db->where($this->_table_name . '.id', $id);
@@ -75,7 +82,8 @@ class M_info extends CI_Model {
         return $query->row_array();
     }
 
-    public function get_by($args) {
+    public function get_by($args)
+    {
         $this->db->select();
         $this->db->from($this->_table_name);
 
@@ -86,7 +94,8 @@ class M_info extends CI_Model {
         return $query->row_array();
     }
 
-    public function get_by_type($post_type = 'banner', $single = false) {
+    public function get_by_type($post_type = 'banner', $single = false)
+    {
         $this->db->select();
         $this->db->from($this->_table_name);
         $this->db->where($this->_table_name . '.post_type', $post_type);
@@ -100,7 +109,8 @@ class M_info extends CI_Model {
         }
     }
 
-    public function add($args = array()) {
+    public function add($args = array())
+    {
         if (empty($args)) {
             return 0;
         }
@@ -111,7 +121,8 @@ class M_info extends CI_Model {
         return (isset($query)) ? $insert_id : 0;
     }
 
-    public function update($id, $args) {
+    public function update($id, $args)
+    {
         if (empty($args)) {
             return false;
         }
@@ -121,13 +132,13 @@ class M_info extends CI_Model {
         return (isset($query)) ? true : false;
     }
 
-    public function delete($id) {
+    public function delete($id)
+    {
         $this->db->where('id', $id);
         $query = $this->db->delete($this->_table_name);
 
         return (isset($query)) ? true : false;
     }
-
 }
 /* End of file M_info.php */
 /* Location: ./application/modules/info/models/M_info.php */

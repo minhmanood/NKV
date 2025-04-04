@@ -14,7 +14,7 @@
                 <h3 class="box-title"><em class="fa fa-table">&nbsp;</em>Thông tin</h3>
             </div>
             <div class="box-body">
-                <form id="f-content" action="<?php echo get_admin_url($module_slug . '/content' . (isset($row['id']) ? '/' . $row['id'] : '')); ?>" method="post" enctype="multipart/form-data" autocomplete="off">
+                <form id="f-content" action="<?php echo get_admin_url($module_slug . '/content'); ?>" method="post" enctype="multipart/form-data" autocomplete="off">
                     <?php
                     if (isset($row['id'])) {
                         echo '<input type="hidden" value="' . $row['id'] . '" id="id" name="id" />';
@@ -33,7 +33,6 @@
                         </select>
                     </div>
 
-
                     <?php
                     $attributes_field = array(
                         'attributes' => array(
@@ -41,6 +40,7 @@
                             'label_des' => ' (Chỉ hiển thị khi xem chi tiết)',
                         ),
                     );
+
                     foreach ($attributes_field as $attribute => $attribute_field):
                         $attribute_slug = str_replace("_", "-", $attribute);
                         $attribute_label = $attribute_field['label'];
@@ -64,19 +64,21 @@
                                             <textarea class="form-control" name="<?php echo $attribute; ?>[content][]" data-autoresize rows="3" placeholder="Nội dung"><?php echo $value['content']; ?></textarea>
                                         </div>
                                         <div class="col-md-3">
-                                            <?php if (!empty($value['image'])): ?>
-                                                <img src="<?= get_module_path('info').$value['image'] ?>" class="img-thumbnail" style="max-width: 100px;">
-                                                <input type="hidden" name="<?php echo $attribute; ?>[image][]" value="<?= $value['image'] ?>">
-                                            <?php endif; ?>
-                                            <input type="file" class="form-control" name="<?php echo $attribute; ?>_upload[image][]">
+                                            <div class="form-group">
+                                                <label class="control-label">Hình ảnh</label>
+                                                <input type="file" class="file" name="<?php echo $attribute; ?>[image][]">
+                                                <?php if (isset($value['image']) && trim($value['image']) != ''): ?>
+                                                    <div style="margin-top: 10px;">
+                                                        <img width="100" src="<?php echo base_url('uploads/info/' . $value['image']); ?>" alt="" class="img-thumbnail img-responsive">
+                                                        <input type="hidden" name="images[]" value="<?php echo $value['image']; ?>">
+                                                    </div>
+                                                <?php endif; ?>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <hr>
                                         </div>
                                     </div>
-
-
-
-
-                                    </div>
-
                                 <?php endforeach; ?>
                             <?php endif; ?>
                         </div>
@@ -125,4 +127,37 @@
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function() {
+            $('[id^="more-"]').click(function() {
+                var id = $(this).attr('id');
+                var attribute = id.replace('more-', '');
+
+                $.ajax({
+                    url: '<?php echo get_admin_url($module_slug . "/admin_get_attribute_ajax"); ?>',
+                    type: 'POST',
+                    data: {
+                        attribute: attribute.replace('-', '_')
+                    },
+                    success: function(html) {
+                        $('#' + attribute).append(html);
+
+                        $('.file').fileinput({
+                            showUpload: false,
+                            showRemove: false,
+                            showPreview: false,
+                            browseClass: "btn btn-primary",
+                            browseLabel: "Chọn tập tin",
+                            browseIcon: "<i class=\"fa fa-folder-open\"></i> ",
+                            allowedFileExtensions: ["jpg", "jpeg", "png", "gif"]
+                        });
+                    }
+                });
+            });
+
+            $(document).on('click', '.remove-element', function() {
+                $(this).closest('.container-element').remove();
+            });
+        });
+    </script>
 </div>
